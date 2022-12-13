@@ -1,12 +1,16 @@
-import React from 'react';
-import { Button } from '@mui/material'
+import React from "react";
+
 
 export default function RegistrationBtn() {
-    return (
-        <>
-            <div className="registration-btn">
-                <Button variant="contained" color="success">REGISTER</Button>
-            </div>
-        </>
-    )
+  return (
+    <>
+      <div className="registration-btn">
+        <a href="https://vitchennaievents.com/" target="_blank" className="dtext">
+          <button className="btn btn-contained btn-success" >
+            REGISTER
+          </button>
+        </a>
+      </div>
+    </>
+  );
 }

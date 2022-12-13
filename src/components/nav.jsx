@@ -1,5 +1,6 @@
 
 import React from 'react';
+const vitlogo= require("../image/favicon.ico");
 
 
 export default function Nav() {
@@ -23,11 +24,22 @@ export default function Nav() {
                 <li className='nav-items' id='Download'>
                     <a href="#DownloadPage"><button className='navButton'><a href="#DownloadPage" class="navText">DOWNLOAD</a></button></a></li>
 
-                <li className='nav-items part2' id='Sponsors'>
-                    <a href="#SponsorPage"><button className='navButton'><a href="#SponsorPage" class="navText">SPONSORS</a></button></a></li>
 
+                    {/* logo can be updated from here */}
+                    <li className='nav-items' id='vitlogo'>
+                        <img src={vitlogo} alt="vitlogo" border="0" className='vitlogo'></img>
+                    </li>
+
+
+
+
+{/* just type in sponsor in navText class a to enable the sponsors button  */}
+                <li className='nav-items part2' id='Sponsors'>
+                    <a href="#SponsorPage"><button className='navButton'><a href="#SponsorPage" class="navText"></a></button></a></li>
+{/* just type in sponsor in navText class a to enable the sponsors button  */}
                 <li className='nav-items' id='FAQs'>
-                    <a href="#FAQPage"><button className='navButton'><a href="#FAQPage" class="navText">FAQ's</a></button></a></li>
+                    <a href="#FAQPage">
+                        <button className='navButton'><a href="#FAQPage" class="navText"></a></button></a></li>
 
                 <li className='nav-items' id='Registration'>
 

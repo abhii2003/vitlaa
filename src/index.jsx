@@ -6,24 +6,24 @@ import Nav from './components/nav';
 import { Navbar } from "./components/navbar";
 import Heading from './components/heading';
 import Subhead from './components/subhead';
-// import FooterHome from './components/footerHome';
-// import HeaderAbout from './components/HeaderAbout';
-// import HeadingAbout from './components/headingAbout';
-// import ContentAbout from './components/contentAbout';
-// import SpeakersEventhead from './components/speakersHead';
-// import SpeakersCards from './components/speakersCards';
-// import ScheduleHead from './components/scheduleHead';
-// import DownloadHead from './components/downloadHead';
+import FooterHome from './components/footerHome';
+import HeaderAbout from './components/HeaderAbout';
+import HeadingAbout from './components/headingAbout';
+import ContentAbout from './components/contentAbout';
+import SpeakersEventhead from './components/speakersHead';
+import SpeakersCards from './components/speakersCards';
+import ScheduleHead from './components/scheduleHead';
+import DownloadHead from './components/downloadHead';
+import DownloadPng from './components/downloadpng';
+import DownloadContent from './components/downloadContent';
+import ScheduleContent from './components/scheduleContent';
 // import SponsorsHead from './components/sponsorsHead';
 // import FaqHead from './components/faqHead';
-// import RegistrationHead from './components/registrationHead';
-// import RegistrationBtn from './components/registrationBtn';
-// import DeadlineRegister from './components/registrationContent'
-// import Footer from './components/footer';
-// import DownloadPng from './components/downloadpng';
-// import DownloadContent from './components/downloadContent';
-// import ScheduleContent from './components/scheduleContent';
-// import CountdownTimer from './components/CountdownTimer';
+import RegistrationHead from './components/registrationHead';
+import RegistrationBtn from './components/registrationBtn';
+import DeadlineRegister from './components/registrationContent'
+import Footer from './components/footer';
+import CountdownTimer from './components/CountdownTimer';
 
 
 
@@ -44,11 +44,11 @@ root.render(
       <Heading />
       
       <Subhead />
-       {/*<CountdownTimer targetDate={dateTimeTarget} />
-      <FooterHome /> */}
+<CountdownTimer targetDate={dateTimeTarget} />
+      <FooterHome /> 
       
     </section>
-     {/*
+     
      <section id='AboutPage'>
       <HeaderAbout />
       <HeadingAbout />
@@ -62,6 +62,7 @@ root.render(
       </div>
       
     </section>
+    
     <section id='SchedulePage'>
       <ScheduleHead />
       <ScheduleContent />
@@ -70,21 +71,21 @@ root.render(
       <DownloadHead />
       <DownloadContent />
       <DownloadPng />
-    </section> */}
+    </section>
     {/* <section id='SponsorsPage'>
       <SponsorsHead />
     </section> */}
     {/* <section id='FAQPage'>
       <FaqHead />
     </section> */}
-    {/* <section id='RegistrationPage'>
+    <section id='RegistrationPage'>
       <RegistrationHead />
       <DeadlineRegister />
       <RegistrationBtn />
-    </section> */}
-    {/* <section id='Footer'>
+    </section>
+    <section id='Footer'>
       <Footer />
-    </section> */}
+    </section>
 
   </>
 );
