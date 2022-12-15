@@ -1,6 +1,5 @@
 
 import React from 'react';
-const vitlogo = require("../HomePage/favicon.ico");
 
 
 export default function Nav() {
@@ -23,12 +22,6 @@ export default function Nav() {
 
                 <li className='nav-items' id='Download'>
                     <a href="#DownloadPage"><button className='navButton'><a href="#DownloadPage" class="navText">DOWNLOAD</a></button></a></li>
-
-
-                {/* logo can be updated from here */}
-                <li className='nav-items' id='vitlogo'>
-                    <img src={vitlogo} alt="vitlogo" border="0" className='vitlogo'></img>
-                </li>
 
 
 

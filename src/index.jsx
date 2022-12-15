@@ -1,20 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Nav from './components/HomePage/nav';
 import { Navbar } from "./components/navbar";
+import Nav from './components/HomePage/nav';
 import Heading from './components/HomePage/heading';
 import Subhead from './components/HomePage/subhead';
-import FooterHome from './components/Footer/footerHome';
+import CountdownTimer from './components/HomePage/CountdownTimer';
 import HeaderAbout from './components/AboutPage/HeaderAbout';
 import HeadingAbout from './components/AboutPage/headingAbout';
 import ContentAbout from './components/AboutPage/contentAbout';
 import SpeakersEventhead from './components/SpeakersPage/speakersHead';
 import SpeakersCards from './components/SpeakersPage/speakersCards';
-import ScheduleHead from './components/SchedulePage/scheduleHead';
 import DownloadHead from './components/DownloadPage/downloadHead';
 import DownloadPng from './components/DownloadPage/downloadpng';
 import DownloadContent from './components/DownloadPage/downloadContent';
+import ScheduleHead from './components/SchedulePage/scheduleHead';
 import ScheduleContent from './components/SchedulePage/scheduleContent';
 // import SponsorsHead from './components/sponsorsHead';
 // import FaqHead from './components/faqHead';
@@ -22,7 +22,7 @@ import RegistrationHead from './components/RegistrationPage/registrationHead';
 import RegistrationBtn from './components/RegistrationPage/registrationBtn';
 import DeadlineRegister from './components/RegistrationPage/registrationContent'
 import Footer from './components/Footer/footer';
-import CountdownTimer from './components/HomePage/CountdownTimer';
+import FooterHome from './components/Footer/footerHome';
 
 
 
