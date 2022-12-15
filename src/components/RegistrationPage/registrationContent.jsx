@@ -1,5 +1,5 @@
 import React from "react";
-const registerpng = require("../components/How to register.png");
+const registerpng = require("../RegistrationPage/How to register.png");
 
 export default function DeadlineRegister() {
   return (
