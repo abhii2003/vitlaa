@@ -1,12 +1,13 @@
 import React from 'react';
 import DateTimeDisplay from './DateTimeDisplay';
+
 import { useCountdown } from './hooks/useCountdown';
 
 const ExpiredNotice = () => {
   return (
     <div className="expired-notice">
       <span>Early Bird Offer Ended</span>
-      
+
     </div>
   );
 };
@@ -14,26 +15,26 @@ const ExpiredNotice = () => {
 const ShowCounter = ({ days, hours, minutes, seconds }) => {
   return (
     <>
-    
-    <div className="show-counter">
-      <a
-        
-        
-        className="countdown-link"
-      >
-        
-        <div className='early'>
-        <p><br/>EARLY BIRD<br/> ENDS IN</p><br/>
-        </div>
-        <DateTimeDisplay value={days} type={'Days'} isDanger={days <= 3} />
-        <p>:</p>
-        <DateTimeDisplay value={hours} type={'Hours'} isDanger={false} />
-        <p>:</p>
-        <DateTimeDisplay value={minutes} type={'Mins'} isDanger={false} />
-        <p>:</p>
-        <DateTimeDisplay value={seconds} type={'Seconds'} isDanger={false} />
-      </a>
-    </div>
+
+      <div className="show-counter">
+        <a
+
+
+          className="countdown-link"
+        >
+
+          <div className='early'>
+            <p><br />EARLY BIRD<br /> ENDS IN</p><br />
+          </div>
+          <DateTimeDisplay value={days} type={'Days'} isDanger={days <= 3} />
+          <p>:</p>
+          <DateTimeDisplay value={hours} type={'Hours'} isDanger={false} />
+          <p>:</p>
+          <DateTimeDisplay value={minutes} type={'Mins'} isDanger={false} />
+          <p>:</p>
+          <DateTimeDisplay value={seconds} type={'Seconds'} isDanger={false} />
+        </a>
+      </div>
     </>
   );
 };
