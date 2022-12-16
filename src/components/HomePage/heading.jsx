@@ -1,12 +1,12 @@
 import React from "react";
-const logo= require("../image/vitlogo.png");
+const logo = require("../HomePage/vitlogo.png");
 
 export default function Heading() {
   return (
     <>
       <div className="heading">
         <h1 className="img-container">
-        <img src={logo} className="img" />
+          <img src={logo} className="img" />
         </h1>
         <h1 className="first-line" id="FirstLine">
           FDP ON
