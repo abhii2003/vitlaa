@@ -3,7 +3,7 @@ html {
   overflow-x: -moz-hidden-unscrollable;
   scroll-behavior: smooth;
   /* Firefox */
-  border: 0;
+  border: 0vh;
   /* remove the border */
   -webkit-touch-callout: none;
   /* iOS Safari */
@@ -22,7 +22,7 @@ html {
 
 body {
   background-color: #000000;
-  margin: 0;
+  margin: 0vh;
   /* height: 830vh; */
 }
 
@@ -46,8 +46,8 @@ body {
 
 
   #root {
-    width: 100vw;
-    height: 100vh;
+    width: 2000vw;
+    height: 2000vh;
   }
 
   .hamburger {
@@ -74,14 +74,15 @@ body {
   /*navbar*/
   nav {
     display: flex;
-    margin: 0;
-    border: 0;
-    
+    margin: 0vh;
+    border: 0vh;
+    width:100vw;
+    height: 3vw;
     /* background-color: #282828;  for debugging*/
   }
 
   nav>ul {
-    width: 100%;
+    width: 100vh;
     display: flex;
   }
 
@@ -89,23 +90,22 @@ body {
     background-color: Transparent;
     border: none;
     color: #FFFFFF;
-    border-radius: 0px;
+    border-radius: 0vh;
     font-family: "inter", sans-serif;
     
     
   } 
 
-
-
+  }
+  .navText{
+    font-size:0.9vw;
   }
 
   nav>ul>li {
     list-style: none;
-    top: 40.02px;
-    left: 55px;
     color: #FFFFFF;
     font-family: "inter", sans-serif;
-    font-size: 0.8rem;
+    font-size: 2vh;
     font-weight: 800;
 
   }
@@ -120,7 +120,7 @@ body {
     color: #FFFFFF;
     text-decoration: none;
     position: relative;
-    padding-bottom: 5px;
+    padding-bottom: 0.5vh;
 
   }
 
@@ -228,7 +228,7 @@ body {
   }
 
   .sub-l1 {
-    font-size: 0.7rem;
+    font-size: 0.7vw;
     font-weight: 300;
   }
 
@@ -238,12 +238,12 @@ body {
   }
 
   .sub-l3 {
-    font-size: 1.1rem;
+    font-size: 1.1vw;
     font-weight: 800;
   }
 
   .sub-l4 {
-    font-size: 0.8rem;
+    font-size: 0.8vw;
     font-weight: 300;
   }
 
@@ -255,7 +255,7 @@ body {
     width: 50%;
     text-align: center;
     font-family: 'inter', sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.1vw;
     font-weight: 400;
     color: #FFFFFF;
   }
@@ -900,7 +900,7 @@ body {
 
   #root {
     width: 100vw;
-    height: 100vh;
+    height:100vh;
   }
 
 
@@ -910,14 +910,14 @@ body {
     background-position: fixed;
     /* Center the image */
     background-repeat: no-repeat;
-    background-size: 100vh;
+    background-size: 100vw;
     background-position-y: center;
     background-size: 120%;
     background-attachment: fixed;
     /* Fixed position */
     background-position-x: center;
-    height: 914px;
-    width: 412px;
+    height: 100vh;
+    width: 100vw;
     border-color: #000000;
     overflow-x: hidden;
     overflow-y: hidden;
