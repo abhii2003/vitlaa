@@ -26,6 +26,7 @@ body {
   background-color: #000000;
   margin: 0vh;
   /* height: 830vh; */
+  
 }
 /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -94,7 +95,7 @@ body {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 700px) {
 
 
 
@@ -114,9 +115,9 @@ body {
     background-position: fixed;
     /* Center the image */
     background-repeat: no-repeat;
-    background-size: 100vh;
+    background-size: 100vw;
     background-position-y: center;
-    background-size: 120%;
+    background-size: 155%;
     background-attachment: fixed;
     /* Fixed position */
     background-position-x: center;
@@ -130,8 +131,8 @@ body {
   /*navbar*/
   nav {
     display: flex;
-    margin: 0vh;
-    border: 0vh;
+    margin: 0vw;
+    border: 0vw;
     width:100vw;
     height: 3vw;
     /* background-color: #282828;  for debugging*/
@@ -148,8 +149,8 @@ body {
     color: #FFFFFF;
     border-radius: 0vh;
     font-family: "inter", sans-serif;
-    height: 3vh;
-    width:7vh;
+    height: 1.5vw;
+    width:3.9vw;
     
     
   } 
@@ -212,6 +213,7 @@ body {
 
   #About {
     margin-left: 3.4vw;
+    
   }
 
   #Speakers {
@@ -302,6 +304,7 @@ body {
     position: absolute;
     margin-top: 3vh;
     margin-left: 58vw;
+    
     width: 50%;
     text-align: center;
     font-family: 'inter', sans-serif;
@@ -340,7 +343,7 @@ body {
     margin-top: -10vh;
     margin-left: 4vw;
     font-family: Six Caps;
-    font-size: 6.5vw;
+    font-size: 6vw;
     line-height: 10vh;
     letter-spacing: 0em;
     text-align: left;
@@ -377,10 +380,10 @@ body {
 
   .about-para1 {
     color: #FFFFFF;
-    margin-top: 100px;
+    margin-top: 170px;
     display: block;
     width: 45vw;
-    margin-bottom: -100px;
+    margin-bottom: 1.5vw;
   }
 
   .about-para2 {
@@ -688,8 +691,8 @@ body {
 
   .registration-btn {
     position: absolute;
-    margin-top: 90vh;
-    margin-left: 37vw;
+    margin-top: 80vh;
+    margin-left: 57vw;
   }
 
 
@@ -966,10 +969,10 @@ body {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-@media only screen  and (-webkit-min-device-pixel-ratio: 2) and (max-width: 750px),
-only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 750px),
-only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 750px),
-only screen and (min-device-pixel-ratio: 2) and (min-width: 750px),
+@media only screen  and (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px),
+only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 700px),
+only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 700px),
+only screen and (min-device-pixel-ratio: 2) and (min-width: 700px),
 only screen and (min-resolution: 2dppx) {
 
   body {
@@ -993,7 +996,7 @@ only screen and (min-resolution: 2dppx) {
     background-repeat: no-repeat;
     background-size: 100vw;
     background-position-y: center;
-    background-size: 120%;
+    background-size: 100%;
     background-attachment: fixed;
     /* Fixed position */
     background-position-x: center;
@@ -1054,8 +1057,8 @@ only screen and (min-resolution: 2dppx) {
   /*heading*/
   .heading {
     position: absolute;
-    margin-top: 5px;
-    margin-left: 20px;
+    margin-top: -1.6vh;
+    margin-left: 0vw;
     width: 100%;
     height: 80%;
     align-items: center;
@@ -1066,17 +1069,20 @@ only screen and (min-resolution: 2dppx) {
     padding-top: 40px;
     color: #FFFFFF;
     padding-left: 10px;
+    width:90vw;
   }
 
   .second-line {
 
     color: #FFBA6D;
     padding-left: 10px;
+    width:90vw;
   }
 
   .third-line {
     color: #FFFFFF;
     padding-left: 10px;
+    width:90vw;
   }
 
   .heading>h1 {
@@ -1123,8 +1129,8 @@ only screen and (min-resolution: 2dppx) {
     position: absolute;
     display: inline-flex;
     margin-top: 12vh;
-    margin-left: 0.35vw;
-    width: 100%;
+    margin-left: 5vw;
+    width: 90%;
     text-align: center;
     font-family: 'inter', sans-serif;
     font-size: 0.9rem;
@@ -1214,20 +1220,17 @@ only screen and (min-resolution: 2dppx) {
   .about-para1 {
     color: #FFFFFF;
     margin-top: 64vh;
+    margin-left: 1vh;
 
 
   }
 
-  .about-para1-ext {
-    color: #FFFFFF;
-    margin-top: 6vh;
-    margin-left: -210px;
-  }
-
+  
   .about-para2 {
     color: #DA453B;
     margin-top: 8vh;
-    margin-left: -210px;
+    margin-left: -19vh;
+    width: 85vw;
   }
 
   /* Speakers */
@@ -1364,6 +1367,7 @@ only screen and (min-resolution: 2dppx) {
     font-family: "inter", sans-serif;
     font-size: 0.8rem;
     margin-left: 3px;
+    margin-top: 22vh;
 
   }
 
@@ -1373,6 +1377,8 @@ only screen and (min-resolution: 2dppx) {
     margin-left: 0px;
     line-height: 12px;
     margin-top: 2px;
+    font-weight: 300;
+    color: #ffb73c;
 
 
   }
@@ -1564,7 +1570,7 @@ only screen and (min-resolution: 2dppx) {
 
   .registration-btn {
     position: absolute;
-    margin-top: 80vh;
+    margin-top: 87vh;
     margin-left: 37vw;
   }
 
@@ -1584,10 +1590,10 @@ only screen and (min-resolution: 2dppx) {
 
   .register-png>img {
     position: absolute;
-    margin-left: 5vw;
+    margin-left: 2.5vw;
     margin-top: 20vh;
-    height: 500px;
-    width: 400px;
+    height: 60vh;
+    width: 95vw;
   }
 
   /* footer */
@@ -1604,10 +1610,10 @@ only screen and (min-resolution: 2dppx) {
 
   .footer-cont1 {
     position: relative;
-    margin-top: -49px;
+    margin-top: -6vh;
     margin-left: 4vw;
     font-family: 'inter', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5vh;
     font-weight: 400;
     color: #FFFFFFB2;
     text-align: center;
@@ -1616,9 +1622,9 @@ only screen and (min-resolution: 2dppx) {
   }
 
   .footer-cont1>h3 {
-    margin-left: 19vh;
+    margin-left: 17vh;
     margin-bottom: 0;
-    font-size: 2rem;
+    font-size: 4vh;
     font-family: 'six caps', sans-serif;
     text-align: justify;
   }
@@ -1627,6 +1633,7 @@ only screen and (min-resolution: 2dppx) {
     color: #DA453B;
     line-height: 15px;
     margin: 15px;
+    font-size: 1.5vh;
   }
 
   .footer-cont2 {
@@ -1639,14 +1646,15 @@ only screen and (min-resolution: 2dppx) {
 
   .footer-cont2>h3 {
     margin-top: 3.5vh;
-    margin-left: 14.5vh;
-    font-size: 2rem;
+    margin-left: 13vh;
+    font-size: 4vh;
     font-family: 'six caps', sans-serif;
     margin-bottom: 5px;
   }
 
   .footer-cont1>p {
     line-height: 5px;
+    margin-top: 1.9vh;
 
   }
 
@@ -1657,20 +1665,24 @@ only screen and (min-resolution: 2dppx) {
   .name-footer2 {
     color: #DA453B;
     line-height: 17px;
-    margin-left: 45px;
+    margin-left: 7vh;
+    margin-top: 2.5vh;
+    font-size: 1.5vh
   }
 
   .footer-cont3 {
     margin-top: 23.2vh;
-    margin-left: 5vw;
+    margin-left: 5.5vw;
     color: #FFFFFFB2;
     text-align: justify;
+    font-size: 1.5vh;
+    justify-content: center;
   }
 
   .footer-cont3>h3 {
     margin-top: -20.2vh;
-    margin-left: 15vh;
-    font-size: 2rem;
+    margin-left: 11.5vh;
+    font-size: 4vh;
     font-family: 'six caps', sans-serif;
     margin-bottom: 0;
     line-height: 17px;
@@ -1679,10 +1691,11 @@ only screen and (min-resolution: 2dppx) {
   .name-footer3 {
     color: #DA453B;
     line-height: 17px;
-    margin-left: 0px;
-    line-height: 17px;
+    margin-left: 2.7vh;
+    margin-top: 2.5vh;
+    font-size: 1.5vh
   }
-
+  
 
   /* countdown timer  */
   .expired-notice>span {
@@ -1722,12 +1735,12 @@ only screen and (min-resolution: 2dppx) {
     flex-direction: row;
     margin-left: 0vh;
 
-    align-items: center;
+    align-items: right;
     font-weight: 700;
     font-size: 2vh;
     line-height: 25px;
     padding-left: 5px;
-    padding-left: 2px;
+    
 
     border-radius: 0.25rem;
     text-decoration: none;
@@ -1736,14 +1749,15 @@ only screen and (min-resolution: 2dppx) {
     background-color: #000000;
     opacity: 70%;
     font-family: 'inter', sans-serif;
-    margin-top: 10px;
+    margin-top: 10vh;
     margin-bottom: 0px;
     height: 7rem;
+    width:100vw;
   }
 
   .show-counter .countdown {
     line-height: 1rem;
-    padding: 10px;
+    padding: 5px;
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -1751,6 +1765,7 @@ only screen and (min-resolution: 2dppx) {
 
 
   .show-counter .countdown.danger {
+    margin-left: 6vh;
     color: #ff0033;
     
   }
@@ -1768,8 +1783,8 @@ only screen and (min-resolution: 2dppx) {
   
 
   .early>p {
-    width: 167px;
-    margin-right: -10vh;
+    width: 20vh;
+    margin-left: 1.4vh;
     font-size: 14.5px;
   }
 
