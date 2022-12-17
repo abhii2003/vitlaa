@@ -835,7 +835,7 @@ body {
     padding: 10px;
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .show-counter .countdown.danger {
