@@ -396,8 +396,8 @@ body {
     position: absolute;
     margin: 0;
     border: 0;
-    height: 15%;
-    width: 100%;
+    height: 15vh;
+    width: 100vw;
     display: inline-flex;
   }
 
@@ -405,7 +405,7 @@ body {
     margin-top: 1vh;
     margin-left: 4vw;
     font-family: Six Caps;
-    font-size: 71px;
+    font-size: 4.7vw;
     font-weight: 400;
     letter-spacing: 0.3rem;
     color: #FFFFFF;
@@ -417,7 +417,7 @@ body {
     display: inline-flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 100%;
+    width: 100vw;
     height: 100%;
 
 
@@ -430,14 +430,14 @@ body {
   }
 
   .box1 {
-    margin-left: 50px;
-    margin-top: 135px;
-    margin-bottom: 50px;
+    margin-left: 4vw;
+    margin-top: 7.2vw;
+    margin-bottom: 3vw;
     width: 100%;
   }
 
   .box2 {
-    margin-left: 170px;
+    margin-left: 12vw;
   }
 
   .box>div {
@@ -460,21 +460,35 @@ body {
   .cont3,
   .cont4 {
     border-radius: 10px;
-    height: 250px;
-    margin-left: 70px;
-    margin-right: 15px;
-    padding: 10px;
-    padding-right: 75px;
+    height: 16.37vw;
+    margin-left: 7vw;
+    margin-right:2vw;
+    padding: 0px;
+    padding-right: 0px;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
   }
 
   .cont5,
-  .cont6,
-  .cont7 {
+  .cont6
+   {
     border-radius: 10px;
-    height: 250px;
-    margin-left: 127px;
-    margin-right: 18px;
-    padding: 10px;
+    height: 16.37vw;
+    margin-left: 9vw;
+    margin-right:0.5vw;
+    padding: 0px;
+    padding-right: 0px;
+    margin-bottom: 1vw;
+    
+  }
+  .cont7{
+    border-radius: 10px;
+    height: 16.37vw;
+    margin-left: 8.5vw;
+    margin-right:0.5vw;
+    padding: 0px;
+    padding-right: 0px;
+    margin-bottom: 1vw;
   }
 
   .content {
@@ -482,7 +496,7 @@ body {
     color: #FFFFFF;
     position: relative;
     font-family: "inter", sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.845vw;
     transform: translate(5%, -140%);
   }
 
@@ -524,7 +538,7 @@ body {
     margin-top: 4vh;
     margin-left: 3vw;
     font-family: Six Caps;
-    font-size: 71px;
+    font-size: 4.7vw;
     font-weight: 400;
     letter-spacing: 0.3rem;
     color: #FFFFFF;
@@ -534,12 +548,12 @@ body {
     width: 50%;
     margin-left: 10vw;
     font-family: Six Caps;
-    font-size: 100px;
+    font-size: 6vw;
     line-height: 10vh;
     letter-spacing: 0em;
     text-align: left;
     display: inline-block;
-    margin: 100px;
+    margin: 5vw;
 
   }
 
@@ -592,8 +606,8 @@ body {
   .download-png {
     margin-top: 18vh;
     position: absolute;
-    height: 600px;
-    width: 350px;
+    height: 79vh;
+    width: 25vw;
   }
 
   .download-png>img {
@@ -622,7 +636,7 @@ body {
     font-weight: 1000;
     color: #DA453B;
     letter-spacing: 0.3rem;
-    font-size: 5rem;
+    font-size: 5.25vw;
     margin-bottom: 6vh;
   }
 
@@ -630,7 +644,7 @@ body {
   .download-content>p {
     color: #FFFFFF;
     font-family: 'inter', sans-serif;
-    line-height: 50px;
+    line-height: 5.6vh;
   }
 
   /*Sponsors*/
@@ -687,7 +701,7 @@ body {
     margin-top: 10vh;
     margin-left: 4vw;
     font-family: Six Caps;
-    font-size: 100px;
+    font-size: 4.5vw;
     line-height: 10vh;
     letter-spacing: 0em;
     text-align: left;
@@ -697,8 +711,8 @@ body {
     position: absolute;
     margin-left: 5vw;
     margin-top: 20vh;
-    height: 500px;
-    width: 400px;
+    height: 75vh;
+    width: 25vw;
   }
 
   /* footer */
@@ -718,7 +732,7 @@ body {
     margin-top: 2vh;
     margin-left: 4vw;
     font-family: 'inter', sans-serif;
-    font-size: 1rem;
+    font-size: 1.045vw;
     font-weight: 400;
     color: #FFFFFFB2;
     text-align: justify;
@@ -727,8 +741,10 @@ body {
   .footer-cont1>h3 {
     margin-left: 12vh;
     margin-bottom: 0;
-    font-size: 2rem;
+    font-size: 2.09vw;
     font-family: 'six caps', sans-serif;
+    font-weight: 200;
+    
   }
 
   .name-footer {
@@ -740,14 +756,16 @@ body {
     margin-left: 40vw;
     color: #FFFFFFB2;
     text-align: justify;
+    font-size: 1.045vw;
   }
 
   .footer-cont2>h3 {
     margin-top: 6.5vh;
     margin-left: 12vh;
-    font-size: 2rem;
-    font-family: 'six caps', sans-serif;
     margin-bottom: 0;
+    font-size: 2.09vw;
+    font-family: 'six caps', sans-serif;
+    font-weight: 200;
   }
 
   .name-footer2 {
@@ -759,14 +777,16 @@ body {
     margin-left: 70vw;
     color: #FFFFFFB2;
     text-align: justify;
+    font-size: 1.045vw;
   }
 
   .footer-cont3>h3 {
-    margin-top: -20.2vh;
+    margin-top: -14.6vh;
     margin-left: 12vh;
-    font-size: 2rem;
-    font-family: 'six caps', sans-serif;
     margin-bottom: 0;
+    font-size: 2.09vw;
+    font-family: 'six caps', sans-serif;
+    font-weight: 200;
   }
 
   .name-footer3 {
@@ -1730,9 +1750,7 @@ body {
     line-height: 1rem;
 
   }
-  .danger{
-    font-weight: 700;
-  }
+  
 
   .early>p {
     width: 167px;
