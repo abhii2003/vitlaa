@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
+import { MenuToggle } from "./menuToggle";
 
 const NavMenuContainer = styled.div`
   width: 100%;
@@ -70,6 +71,7 @@ export function NavMenu({ isOpen }) {
           }}
         >
           <a href="#HomePage">Home</a>
+          
         </NavLink>
         <NavLink
           initial={false}

@@ -18,7 +18,7 @@ export default function Footer() {
         <p className="name-footer2">https://vitchennaievents.com</p>
       </div>
       <div className="footer-cont3">
-        <h3>Design and Developed By</h3>
+        <h3>Designed and Developed By</h3>
         <p className="name-footer3">
           Shashwat Mishra, Abhinav Kushwaha, Venkat Amith
         </p>

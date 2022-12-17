@@ -1,4 +1,6 @@
 html {
+  width: 100vw;
+  height: 100vh;
   overflow-x: hidden;
   overflow-x: -moz-hidden-unscrollable;
   scroll-behavior: smooth;
@@ -830,7 +832,7 @@ body {
     flex-grow: 0;
     flex-shrink: 0;
     flex-direction: row;
-    margin-left: 110vh;
+    margin-left: 54vw;
 
     align-items: center;
     font-weight: 700;
@@ -847,8 +849,9 @@ body {
     margin-top: 270px;
     margin-bottom: -20px;
     height: 8vw;
-    width: 100vw;
+    width: 46.7vw;
   }
+  
 
   .show-counter .countdown {
     line-height: 2vw;
@@ -868,13 +871,13 @@ body {
 
   .show-counter .countdown>span {
     text-transform: uppercase;
-    font-size: 0.75rem;
+    font-size: 0.7vw;
     line-height: 1rem;
 
   }
 
   .early {
-    width: 167px;
+    width: 10vw;
   }
 
   .bm-burger-button {
@@ -1781,7 +1784,7 @@ body {
 
 
   .bm-burger-bars-hover {
-    background: #59575a;
+    background: #5a5757;
   }
 
 
