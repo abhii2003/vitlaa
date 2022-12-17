@@ -643,7 +643,7 @@ body {
 
   .download-content>h1 {
     font-family: 'six caps', sans-serif;
-    font-weight: 1000;
+    font-weight: 400;
     color: #DA453B;
     letter-spacing: 0.3rem;
     font-size: 5.25vw;
@@ -1512,7 +1512,7 @@ only screen and (min-resolution: 2dppx) {
 
   .download-content>h1 {
     font-family: 'six caps', sans-serif;
-    font-weight: 1000;
+    font-weight: 700;
     color: #DA453B;
     letter-spacing: 0.3rem;
     font-size: 2.5rem;
