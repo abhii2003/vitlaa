@@ -15,15 +15,20 @@ export default function Footer() {
       </div>
       <div className="footer-cont2">
         <h3>Register At</h3>
-        <p className="name-footer2">https://vitchennaievents.com</p>
+        <a href="https://vitchennaievents.com" className="dtext"><p className="name-footer2">https://vitchennaievents.com</p></a>
       </div>
       <div className="footer-cont3">
         <h3>Designed and Developed By</h3>
         <p className="name-footer3">
-          Shashwat Mishra, Abhinav Kushwaha, Venkat Amith
+        Shashwat Mishra, 
+        Abhinav Kushwaha, 
+        Venkat Amith
         </p>
         <p>
-          github:Shashwatm74, abhii2003, homealone07
+          github:
+          <a href="https://github.com/Shashwatm74" className="dtext flink">Shashwatm74</a>, 
+          <a href="https://github.com/abhii2003" className="dtext flink">abhii2003</a>, 
+          <a href="https://github.com/homealone07" className="dtext flink">homealone07</a>
           <br />
         </p>
       </div>

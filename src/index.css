@@ -72,6 +72,11 @@ body {
 .img {
   width: 100%;
 }
+.flink{
+  text-decoration: none;
+  font-family: "inter", sans-serif;
+  color: #FFFFFFB2;
+}
 
 
 
@@ -772,6 +777,7 @@ body {
 
   .name-footer2 {
     color: #DA453B;
+    margin-left:0.5vw;
   }
 
   .footer-cont3 {
