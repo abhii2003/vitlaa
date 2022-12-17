@@ -6,7 +6,7 @@ import { useCountdown } from './hooks/useCountdown';
 const ExpiredNotice = () => {
   return (
     <div className="expired-notice">
-      <span>Early Bird Offer Ended</span>
+      <span>Early Bird Offer Ended  ...(⌣̩̩́_⌣̩̩̀) </span>
 
     </div>
   );

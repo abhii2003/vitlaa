@@ -23,7 +23,7 @@ export default function Footer() {
           Shashwat Mishra, Abhinav Kushwaha, Venkat Amith
         </p>
         <p>
-          github:Shashwatm74, abhii2003
+          github:Shashwatm74, abhii2003, homealone07
           <br />
         </p>
       </div>
