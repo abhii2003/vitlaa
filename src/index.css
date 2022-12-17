@@ -803,12 +803,13 @@ body {
     flex-grow: 0;
     flex-shrink: 0;
     flex-direction: row;
-    margin-left: 120vh;
+    margin-left: 54vw;
+    
 
     align-items: center;
     font-weight: 700;
-    font-size: 4vh;
-    line-height: 25px;
+    font-size: 2vw;
+    line-height: 2vw;
     padding-left: 20px;
 
     border-radius: 0.25rem;
@@ -818,8 +819,9 @@ body {
     background-color: #000000;
     font-family: 'inter', sans-serif;
     margin-top: 270px;
-    margin-bottom: 0px;
-    height: 7rem;
+    margin-bottom: -20px;
+    height: 8vw;
+    width: 46.7vw;
   }
 
   .show-counter {
