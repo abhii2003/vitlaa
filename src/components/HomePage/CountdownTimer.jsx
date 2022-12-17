@@ -26,7 +26,7 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
           <div className='early'>
             <p><br />EARLY BIRD<br /> ENDS IN</p><br />
           </div>
-          <DateTimeDisplay value={days} type={'Days'} isDanger={days <= 3} />
+          <DateTimeDisplay value={days} type={'Days'} isDanger={days <= 60} />
           <p>:</p>
           <DateTimeDisplay value={hours} type={'Hours'} isDanger={false} />
           <p>:</p>
