@@ -17,7 +17,7 @@ export default function SpeakersCards() {
                                 <div className="cont1 cont">
                                         <img className='img-speaker' src={prof1} />
 
-                                        <div className="content prof1">
+                                        <div className="content prof1 prof">
                                                 <h4>Dr. T. Parthasarathy</h4>
                                                 <p>Department of Mathematics <br /><br />CMI, Chennai</p>
                                         </div>
@@ -26,7 +26,7 @@ export default function SpeakersCards() {
                                 <div className="cont2 cont">
                                         <img className='img-speaker' src={prof2} />
 
-                                        <div className="content prof2">
+                                        <div className="content prof2 prof">
                                                 <h4>Dr. Arindama Singh</h4>
                                                 <p>Department of Mathematics <br />IIT, Madras</p>
                                         </div>
@@ -35,7 +35,7 @@ export default function SpeakersCards() {
                                 <div className="cont3 cont">
                                         <img className='img-speaker' src={prof3} />
 
-                                        <div className="content prof3">
+                                        <div className="content prof3 prof">
                                                 <h4>Dr. K. Manjunatha Prasad</h4>
                                                 <p>Department of Data Science<br /> MAHE, Manipal</p>
                                         </div>
@@ -44,7 +44,7 @@ export default function SpeakersCards() {
                                 <div className="cont4 cont">
                                         <img className='img-speaker' src={prof4} />
 
-                                        <div className="content prof4">
+                                        <div className="content prof4 prof">
                                                 <h4>Dr. K.C. Sivakumar</h4>
                                                 <p>Department of Mathematics<br /> IIT Madras
                                                 </p>
@@ -59,7 +59,7 @@ export default function SpeakersCards() {
                                 <div className="cont5 cont">
                                         <img className='img-speaker' src={prof5} />
 
-                                        <div className="content prof5">
+                                        <div className="content prof5 prof">
                                                 <h4>Dr. Biswajit Deb</h4>
                                                 <p>Department of Mathematics<br /> SMIT, Sikkim
                                                 </p>
@@ -69,7 +69,7 @@ export default function SpeakersCards() {
                                 <div className="cont6 cont">
                                         <img className='img-speaker' src={prof6} />
 
-                                        <div className="content prof6">
+                                        <div className="content prof6 prof">
                                                 <h4>Dr. P. Vanchinathan</h4>
                                                 <p>School of Advanced Sciences<br /> VIT, Chennai</p>
                                         </div>
@@ -79,7 +79,7 @@ export default function SpeakersCards() {
 
                                         <img className='img-speaker' src={prof7} />
 
-                                        <div className="content prof7">
+                                        <div className="content prof7 prof">
                                                 <h4>Dr. P. Sushmitha</h4>
                                                 <p>School of Advanced Sciences<br /> VIT, Chennai</p>
                                         </div>

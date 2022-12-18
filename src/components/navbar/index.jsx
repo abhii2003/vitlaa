@@ -4,7 +4,7 @@ import { HamburgerMenu } from "../hamburger";
 
 const NavbarContainer = styled.div`
 
-  width: 89%;
+  width: 85%;
   height: 55px;
   display: flex;
   flex-direction: row-reverse;

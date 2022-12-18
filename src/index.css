@@ -986,6 +986,7 @@ only screen and (min-resolution: 2dppx) {
   #root {
     width: 100vw;
     height:100vh;
+    margin: 0;
   }
 
 
@@ -1006,7 +1007,9 @@ only screen and (min-resolution: 2dppx) {
     border-color: #000000;
     overflow-x: hidden;
     overflow-y: hidden;
+    margin: 0;
   }
+  
 
   /*navbar*/
   nav {
@@ -1017,42 +1020,43 @@ only screen and (min-resolution: 2dppx) {
 
 
   #Home {
-    margin-left: 3vw;
+    margin-left: 0vw;
+
 
   }
 
   #About {
-    margin-left: 3.4vw;
+    margin-left: 0vw;
   }
 
   #Speakers {
-    margin-left: 3.8vw;
+    margin-left: 0vw;
   }
 
   #Schedule {
-    margin-left: 4.2vw;
+    margin-left: 0vw;
   }
 
 
 
 
   #Download {
-    margin-left: 4.6vw;
+    margin-left: 0vw;
 
   }
 
   #Sponsors {
-    margin-left: 27vw;
+    margin-left: 0vw;
   }
 
   #FAQs {
-    margin-left: 4vw;
+    margin-left: 0vw;
   }
 
   #Registration {
-    margin-left: 4.4vw;
+    margin-left: 0vw;
   }
-
+ 
 
 
   /*heading*/
@@ -1060,7 +1064,7 @@ only screen and (min-resolution: 2dppx) {
     position: absolute;
     margin-top: -5vw;
     margin-left: 4vw;
-    width: 100%;
+    width: 80%;
     height: 80%;
     align-items: center;
   }
@@ -1164,7 +1168,7 @@ only screen and (min-resolution: 2dppx) {
     font-weight: 700;
     font-size: 4vw;
     line-height: 25px;
-    padding-left: 5px;
+    padding-left: 0px;
     
 
     border-radius: 0.25rem;
@@ -1220,7 +1224,7 @@ only screen and (min-resolution: 2dppx) {
     display: inline-flex;
     margin-top: 2vw;
     margin-left: 12vw;
-    width: 90%;
+    width: 80%;
     text-align: center;
     font-family: 'inter', sans-serif;
     font-size:3vw;
@@ -1255,11 +1259,11 @@ only screen and (min-resolution: 2dppx) {
   /* headingAbout */
   .headingAbout {
     width: 50%;
-    margin-top: -10vh;
+    margin-top: -9.5vh;
     margin-left: 2vw;
     font-family: Six Caps;
     
-    line-height: 18vw;
+    line-height: 22vw;
     letter-spacing: 0.1rem;
     text-align: left;
     margin-bottom: 0px;
@@ -1303,18 +1307,18 @@ only screen and (min-resolution: 2dppx) {
     width: 50%;
     height: 80%;
     margin-top: -1vw;
-    margin-left: 53.5vw;
+    margin-left: 49.5vw;
     font-family: 'inter', sans-serif;
     font-weight: 300;
     font-size: 3vw;
-    line-height: 1.35rem;
+    line-height: 3vh;
     width: 188px;
   }
 
   .about-para1 {
     color: #FFFFFF;
-    margin-top: -105vw;
-    margin-left: -2vw;
+    margin-top: -134vw;
+    margin-left: -5vw;
 
 
   }
@@ -1322,10 +1326,15 @@ only screen and (min-resolution: 2dppx) {
   
   .about-para2 {
     color: #DA453B;
-    margin-top: 4vh;
-    margin-left: -27vh;
-    width: 85vw;
+    margin-top: 1vh;
+    margin-left: -2.9vh;
+    width: 50vw;
+    margin-right: 0px;
   }
+  .about-para2>p {
+    margin-left: -2.9vh
+  }
+
 
   /* Speakers */
   #SpeakersPage {
@@ -1350,7 +1359,7 @@ only screen and (min-resolution: 2dppx) {
     margin-top: 1vh;
     margin-left: 4vw;
     font-family: Six Caps;
-    font-size: 71px;
+    font-size: 15vw;
     font-weight: 400;
     letter-spacing: 0.3rem;
     color: #FFFFFF;
@@ -1375,14 +1384,14 @@ only screen and (min-resolution: 2dppx) {
   }
 
   .box1 {
-    margin-left: 10px;
-    margin-top: 120px;
-    margin-bottom: 50px;
+    margin-left: 0px;
+    margin-top: 23vw;
+    margin-bottom: 2vw;
     width: 100%;
   }
 
   .box2 {
-    margin-left: 10px;
+    margin-left: 0px;
   }
 
   .box>div {
@@ -1402,65 +1411,75 @@ only screen and (min-resolution: 2dppx) {
 
   .cont1,
   .cont3 {
+    display: flex;
+    flex-direction: row;
     border-radius: 10px;
-    height: 140px;
-    margin-left: 1px;
-    margin-right: 15px;
+    height: 32vw;
+    margin-left: 2.5vw;
+    margin-right: 19vw;
     padding: 0px;
-    padding-right: 75px;
-    margin-bottom: 20px;
+    padding-right: 2.56vw;
+    margin-bottom: 3vh;    
     position: relative;
+    user-select: none;
   }
 
   .cont1,
   .cont2 {
-    margin-bottom: 55px;
+    margin-bottom: 3vh;
   }
 
   .cont2,
   .cont4 {
+    display: flex;
+    flex-direction: row;
     border-radius: 10px;
-    height: 140px;
-    margin-left: 13px;
-    margin-right: 15px;
+    height: 32vw;
+    margin-left: 2.8vw;
+    margin-right: 2vw;
     padding: 0px;
-    padding-right: 75px;
-    margin-bottom: 20px;
+    padding-right: 1vw;
+    margin-bottom: 2vw;
     position: relative;
+    user-select: none;
   }
 
   .cont5,
   .cont6 {
+    display: flex;
+    flex-direction: row;
     border-radius: 10px;
-    height: 140px;
-    margin-left: 1px;
-    margin-right: 15px;
+    height: 32vw;
+    margin-left: 2.5vw;
+    margin-right: 17vw;
     padding: 0px;
-    padding-right: 75px;
-    margin-bottom: 20px;
+    padding-right: 2.41vh;    
     position: relative;
-
+    user-select: none;
+  }
+  .cont6{
+    margin-left: 1.52vh;
   }
 
   .cont7 {
+    display: flex;
+    flex-direction: row;
     border-radius: 10px;
-    height: 140px;
-    margin-left: 120px;
-    margin-right: 15px;
+    height: 32vw;
+    margin-left: 27vw;
     padding: 0px;
-    padding-right: 75px;
-    margin-bottom: 20px;
+    padding-right: 5vh;    
     position: relative;
-    margin-top: 35px
+    margin-top: 8vw;
+    user-select: none;
   }
-
+ 
   .content {
     display: inline-block;
     color: #FFFFFF;
     position: absolute;
     font-family: "inter", sans-serif;
-    font-size: 0.8rem;
-    margin-left: 3px;
+    font-size: 3.1vw;    
     margin-top: 22vh;
 
   }
@@ -1469,14 +1488,22 @@ only screen and (min-resolution: 2dppx) {
   .content>h4 {
     display: block;
     margin-left: 0px;
-    line-height: 12px;
-    margin-top: 2px;
+    line-height: 3vw;
+    margin-top: -25vw;
     font-weight: 300;
     color: #ffb73c;
+    font-size: 3.1vw;
 
 
   }
-
+  .prof{
+    margin-left: 25vw;
+    margin-top: 10vw;
+    margin-top: 40vw;
+    height:10vw;
+  }
+  
+  
 
 
 
@@ -1503,9 +1530,9 @@ only screen and (min-resolution: 2dppx) {
 
   .schedule-head {
     margin-top: 4vh;
-    margin-left: 5vw;
+    font-size: 15vw;
+    margin-left: 4vw;
     font-family: Six Caps;
-    font-size: 71px;
     font-weight: 400;
     letter-spacing: 0.3rem;
     color: #FFFFFF;
@@ -1530,18 +1557,21 @@ only screen and (min-resolution: 2dppx) {
     font-weight: 100;
     position: relative;
     margin-left: -30px;
+    font-size: 30vw;
   }
 
   .line2-schedule {
     color: #DA453B;
     font-weight: 100;
     margin-left: -30px;
+    font-size: 30vw;
   }
 
   .line3-schedule {
     color: #FFFFFF;
     font-weight: 100;
     margin-left: -30px;
+    font-size: 30vw;
   }
 
   /* download */
@@ -1563,11 +1593,7 @@ only screen and (min-resolution: 2dppx) {
 
   }
 
-  .schedule-head {
-    font-size: 60px;
-    margin-left: 10vw;
-  }
-
+  
   #ScheduleContent {}
 
   /* downloads */
@@ -1582,16 +1608,11 @@ only screen and (min-resolution: 2dppx) {
   .download-png {
     display: none
   }
-
-  .download-png>img {
-    width: 100%;
-    height: 100%;
-    margin-left: 100px;
-  }
+  
 
   .download-btn {
     position: absolute;
-    margin-top: 83vh;
+    margin-top: 90vh;
     margin-left: 35vw;
   }
 
@@ -1606,25 +1627,25 @@ only screen and (min-resolution: 2dppx) {
 
   .download-content>h1 {
     font-family: 'six caps', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     color: #DA453B;
     letter-spacing: 0.3rem;
-    font-size: 2.5rem;
-    margin-bottom: 1vh;
+    font-size:10vw;
+    margin-bottom: 2vw;
     display: inline-block;
-    margin-right: -100px;
-    margin-left: 10px;
-    margin-top: 69px;
+    margin-right: -50vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
   }
 
 
   .download-content>p {
     color: #FFFFFF;
     font-family: 'inter', sans-serif;
-    line-height: 40px;
-    margin-top: 30px;
-    margin-right: -120px;
-    font-size: 1.2rem;
+    line-height: 5vh;
+    margin-top: 5vh;
+    margin-right: -30vw;
+    font-size: 4.5vw;
   }
 
   /*Sponsors*/
@@ -1648,9 +1669,10 @@ only screen and (min-resolution: 2dppx) {
 
 } */
   .faq-head {
-    font-size: 50px;
-    width: 100%;
-    margin-left: 7.5vw;
+    font-size: 12vw;
+    width: 95%;
+    margin-left: 1vw;
+    padding-left: 1vh;
   }
 
   /* RegistrationPage */
@@ -1705,7 +1727,7 @@ only screen and (min-resolution: 2dppx) {
   .footer-cont1 {
     position: relative;
     margin-top: -6vh;
-    margin-left: 4vw;
+    margin-left: 6vw;
     font-family: 'inter', sans-serif;
     font-size: 1.5vh;
     font-weight: 400;
@@ -1882,12 +1904,7 @@ only screen and (min-resolution: 2dppx) {
     color: #ffffff;
   }
 
-  /* .menu-item{
-  display:block;
-  color: #d3ced5;
-  margin-top: 100px;
-
-} */
+ 
   .img-container {
     display: flex;
     justify-content: flex-start;
