@@ -10,6 +10,7 @@ const NavbarContainer = styled.div`
   flex-direction: row-reverse;
   align-items: center;
   padding: 0 1.5em;
+  user-select: none;
   
 `;
 
