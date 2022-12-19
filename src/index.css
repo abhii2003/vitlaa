@@ -970,7 +970,7 @@ body {
 only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 700px),
 only screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 700px),
 only screen and (min-device-pixel-ratio: 2) and (min-width: 700px),
-only screen and (min-resolution: 2dppx),{
+only screen and (min-resolution: 2dppx){
   
 
   body {
@@ -1408,6 +1408,9 @@ only screen and (min-resolution: 2dppx),{
 
   .cont1,
   .cont3 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
@@ -1428,6 +1431,9 @@ only screen and (min-resolution: 2dppx),{
 
   .cont2,
   .cont4 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
@@ -1443,6 +1449,9 @@ only screen and (min-resolution: 2dppx),{
 
   .cont5,
   .cont6 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
@@ -1455,10 +1464,16 @@ only screen and (min-resolution: 2dppx),{
     user-select: none;
   }
   .cont6{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     margin-left: 1.52vh;
   }
 
   .cont7 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     display: flex;
     flex-direction: row;
     border-radius: 10px;
@@ -1472,6 +1487,9 @@ only screen and (min-resolution: 2dppx),{
   }
  
   .content {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     display: inline-block;
     color: #FFFFFF;
     position: absolute;
