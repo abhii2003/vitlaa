@@ -1,4 +1,5 @@
 import React from 'react';
+import {useState , useEffect} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import { Navbar } from "./components/navbar";
@@ -23,68 +24,72 @@ import RegistrationBtn from './components/RegistrationPage/registrationBtn';
 import DeadlineRegister from './components/RegistrationPage/registrationContent'
 import Footer from './components/Footer/footer';
 import FooterHome from './components/Footer/footerHome';
-
+import Loader from './components/Loader/loader'
 
 
 
 const dateTimeTarget = new Date('February 2, 23 00:00:00 GMT+00:00').getTime();
-const innerWidth = window.innerWidth;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
+
 root.render(
-  <>
 
-    <section id='HomePage'>
-      <Nav />
+    
+    <div>
+    
 
-      <Navbar />
-      <Heading />
+      <section id='HomePage'>
+        <Nav />
 
-      <Subhead />
-      <CountdownTimer targetDate={dateTimeTarget} />
-      <FooterHome />
+        <Navbar />
+        <Heading />
 
-    </section>
+        <Subhead />
+        <CountdownTimer targetDate={dateTimeTarget} />
+        <FooterHome />
 
-    <section id='AboutPage'>
-      <HeaderAbout />
-      <HeadingAbout />
-      <ContentAbout />
-    </section>
-    <section id='SpeakersPage'>
-      <div className="box3">
-        <SpeakersEventhead />
+      </section>
 
-        <SpeakersCards />
-      </div>
+      <section id='AboutPage'>
+        <HeaderAbout />
+        <HeadingAbout />
+        <ContentAbout />
+      </section>
+      <section id='SpeakersPage'>
+        <div className="box3">
+          <SpeakersEventhead />
 
-    </section>
+          <SpeakersCards />
+        </div>
 
-    <section id='SchedulePage'>
-      <ScheduleHead />
-      <ScheduleContent />
-    </section>
-    <section id='DownloadPage'>
-      <DownloadHead />
-      <DownloadContent />
-      <DownloadPng />
-    </section>
-    {/* <section id='SponsorsPage'>
-      <SponsorsHead />
-    </section> */}
-    {/* <section id='FAQPage'>
-      <FaqHead />
-    </section> */}
-    <section id='RegistrationPage'>
-      <RegistrationHead />
-      <DeadlineRegister />
-      <RegistrationBtn />
-    </section>
-    <section id='Footer'>
-      <Footer />
-    </section>
+      </section>
 
-  </>
+      <section id='SchedulePage'>
+        <ScheduleHead />
+        <ScheduleContent />
+      </section>
+      <section id='DownloadPage'>
+        <DownloadHead />
+        <DownloadContent />
+        <DownloadPng />
+      </section>
+      {/* <section id='SponsorsPage'>
+        <SponsorsHead />
+      </section> */}
+      {/* <section id='FAQPage'>
+        <FaqHead />
+      </section> */}
+      <section id='RegistrationPage'>
+        <RegistrationHead />
+        <DeadlineRegister />
+        <RegistrationBtn />
+      </section>
+      <section id='Footer'>
+        <Footer />
+      </section>
+    
+    </div>
 );
+  
 
