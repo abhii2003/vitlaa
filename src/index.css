@@ -169,6 +169,7 @@ body {
 
   }
 
+
   nav>ul>li>a {
     font-family: "inter", sans-serif;
   }
@@ -251,8 +252,6 @@ body {
     margin-top: -1.2vw;
     width: 70%;
     height: 80%;
-    align-items: center;
-
   }
 
   .first-line {
@@ -429,8 +428,6 @@ body {
     flex-direction: row;
     width: 100vw;
     height: 100%;
-
-
   }
 
   .img-speaker {
