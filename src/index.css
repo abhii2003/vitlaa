@@ -339,11 +339,11 @@ body {
   /* headingAbout */
   .headingAbout {
     width: 50%;
-    margin-top: -10vh;
+    margin-top: -4vh;
     margin-left: 4vw;
     font-family: Six Caps;
     font-size: 6vw;
-    line-height: 10vh;
+    line-height: 5vh;
     letter-spacing: 0em;
     text-align: left;
   }
@@ -556,7 +556,7 @@ body {
     margin-left: 10vw;
     font-family: Six Caps;
     font-size: 6vw;
-    line-height: 10vh;
+    line-height: 5vh;
     letter-spacing: 0em;
     text-align: left;
     display: inline-block;
