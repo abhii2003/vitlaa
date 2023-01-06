@@ -5,10 +5,10 @@ export default function ScheduleHead() {
         <>
             <div className='schedule-cont'>
 
-                <h1 className='schedule-head'>
+                <p className='page-head'>
                     VITLAA2023
                     <span id='color'> SCHEDULE</span>
-                </h1>
+                </p>
             </div>
         </>
     )

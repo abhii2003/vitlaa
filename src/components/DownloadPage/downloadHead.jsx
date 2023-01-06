@@ -5,11 +5,11 @@ export default function DownloadHead() {
         <>
             <div className='schedule-cont'>
 
-                <h1 className='schedule-head '>
+                <p className='page-head'>
                     BROCHURE
                     <span id='color'> VITLAA </span>
                     2023
-                </h1>
+                </p>
             </div>
         </>
     )

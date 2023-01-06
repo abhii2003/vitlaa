@@ -1,7 +1,8 @@
 import React from 'react';
-import {useState , useEffect} from 'react';
+import { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
+import './min.css';
 import { Navbar } from "./components/navbar";
 import Nav from './components/HomePage/nav';
 import Heading from './components/HomePage/heading';
@@ -35,61 +36,62 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
 
-    
-    <div>
-    
 
-      <section id='HomePage'>
-        <Nav />
+  <div>
 
-        <Navbar />
-        <Heading />
 
-        <Subhead />
-        <CountdownTimer targetDate={dateTimeTarget} />
-        <FooterHome />
+    <section className='page' id='HomePage'>
+      <Nav />
 
-      </section>
+      <Navbar />
+      <Heading />
 
-      <section id='AboutPage'>
-        <HeaderAbout />
-        <HeadingAbout />
-        <ContentAbout />
-      </section>
-      <section id='SpeakersPage'>
-        <div className="box3">
-          <SpeakersEventhead />
+      <Subhead />
+      <CountdownTimer targetDate={dateTimeTarget} />
+      <FooterHome />
 
-          <SpeakersCards />
-        </div>
+    </section>
 
-      </section>
+    <section className='page' id='AboutPage'>
+      <HeaderAbout />
+      <HeadingAbout />
+      <ContentAbout />
+    </section>
 
-      <section id='SchedulePage'>
-        <ScheduleHead />
-        <ScheduleContent />
-      </section>
-      <section id='DownloadPage'>
-        <DownloadHead />
-        <DownloadContent />
-        <DownloadPng />
-      </section>
-      {/* <section id='SponsorsPage'>
+    <section className='page' id='SpeakersPage'>
+      <div className="box3">
+        <SpeakersEventhead />
+
+        <SpeakersCards />
+      </div>
+
+    </section>
+
+    <section className='page' id='SchedulePage'>
+      <ScheduleHead />
+      <ScheduleContent />
+    </section>
+    <section className='page' id='DownloadPage'>
+      <DownloadHead />
+      <DownloadContent />
+      <DownloadPng />
+    </section>
+    {/* <section className='page' id='SponsorsPage'>
         <SponsorsHead />
       </section> */}
-      {/* <section id='FAQPage'>
+    {/* <section className='page' id='FAQPage'>
         <FaqHead />
       </section> */}
-      <section id='RegistrationPage'>
-        <RegistrationHead />
-        <DeadlineRegister />
-        <RegistrationBtn />
-      </section>
-      <section id='Footer'>
-        <Footer />
-      </section>
-    
-    </div>
+    <section className='page' id='RegistrationPage'>
+      <RegistrationHead />
+      <DeadlineRegister />
+      <RegistrationBtn />
+    </section>
+    <section id='Footer'>
+      <Footer />
+    </section>
+
+  </div>
 );
-  
+
 

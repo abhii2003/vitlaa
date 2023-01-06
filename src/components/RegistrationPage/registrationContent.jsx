@@ -4,8 +4,8 @@ const registerpng = require("../RegistrationPage/How to register.png");
 export default function DeadlineRegister() {
   return (
     <>
-      <div className="register-png">
-        <img src={registerpng} alt="register png" />
+      <div className="images-cont">
+        <img className='images' src={registerpng} alt="register png" />
       </div>
       <div className="register-deadline" id="Register">
         <h1 className="line1-about">THE LAST DATE </h1>

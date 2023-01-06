@@ -3,10 +3,10 @@ import React from "react";
 export default function SpeakersEvent() {
     return (
         <div className="speakers-event">
-            <h1 className="head-speakers">
+            <p className="page-head">
                 OUR
                 <span id="color"> SPEAKERS</span>
-            </h1>
+            </p>
         </div>
     )
 }
