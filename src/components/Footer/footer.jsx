@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
+    <>
     <footer>
       <div className="footer-cont1">
         <h3>Convenors</h3>
@@ -16,6 +17,7 @@ export default function Footer() {
       <div className="footer-cont2">
         <h3>Register At</h3>
         <a href="https://vitchennaievents.com" className="dtext"><p className="name-footer2">https://vitchennaievents.com</p></a>
+        <p className="copyright-content">© 2023 All rights reserved | Design & Developed by VIT Chennai</p>
       </div>
       <div className="footer-cont3">
         <h3>Designed and Developed By</h3>
@@ -33,5 +35,6 @@ export default function Footer() {
         </p>
       </div>
     </footer>
+    </>
   );
 }

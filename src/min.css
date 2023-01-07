@@ -715,7 +715,6 @@ nav>ul>li>a {
 }
 
 .footer-cont3 {
-    margin-top: 4.2vh;
     margin-left: 70vw;
     color: #FFFFFFB2;
     text-align: justify;
@@ -723,7 +722,7 @@ nav>ul>li>a {
 }
 
 .footer-cont3>h3 {
-    margin-top: -14.6vh;
+    margin-top: -33.6vh;
     margin-left: 12vh;
     margin-bottom: 0;
     font-size: 2.09vw;
@@ -733,6 +732,11 @@ nav>ul>li>a {
 
 .name-footer3 {
     color: #DA453B;
+}
+
+.copyright-content {
+    font-size: 2vh;
+    margin-top: 19vh;
 }
 
 
