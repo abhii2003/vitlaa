@@ -173,11 +173,13 @@ body {
 
 /*navbar*/
 nav {
+    position: fixed;
     display: flex;
     margin: 0vw;
     border: 0vw;
     width: 100vw;
     height: 3vw;
+    background-color: rgb(0 0 0 / 82%);
     /* background-color: #282828;  for debugging*/
 }
 
