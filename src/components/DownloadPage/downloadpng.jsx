@@ -7,9 +7,7 @@ export default function DownloadPng() {
         <>
             <div className="cont-image-container-download">
 
-                <div className="images-cont">
-                    <img className='images' src={brocherimg} alt="download png" />
-                </div>
+
             </div>
             <div className='button-container'>
                 <div className="download-btn">
