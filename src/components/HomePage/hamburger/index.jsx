@@ -79,11 +79,11 @@ export function HamburgerMenu(props) {
         transition={menuTransition}
       >
         <MenuToggle toggle={toggleMenu} isOpen={isOpen} />
-        
+
         <ContentContainer>
-        
-        <NavMenu isOpen={isOpen} />
-          
+
+          <NavMenu isOpen={isOpen} />
+
         </ContentContainer>
       </MenuContainer>
     </HamburgerMenuContainer>

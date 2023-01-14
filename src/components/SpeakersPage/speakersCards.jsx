@@ -19,7 +19,7 @@ export default function SpeakersCards() {
 
                                         <div className="content prof1 prof">
                                                 <h4>Dr. T. Parthasarathy</h4>
-                                                <p>Department of Mathematics <br /><br />CMI, Chennai</p>
+                                                <p>Department of Mathematics <br />CMI, Chennai</p>
                                         </div>
                                 </div>
                                 {/* speaker 2 */}

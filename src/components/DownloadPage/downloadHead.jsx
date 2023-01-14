@@ -3,13 +3,16 @@ import React from 'react';
 export default function DownloadHead() {
     return (
         <>
-            <div className='schedule-cont'>
+            <div className='heading-container-download'>
 
-                <p className='page-head'>
-                    BROCHURE
-                    <span id='color'> VITLAA </span>
-                    2023
-                </p>
+                <div className='schedule-cont'>
+
+                    <p className='page-head page-head-download'>
+                        BROCHURE
+                        <span id='color'> VITLAA </span>
+                        2023
+                    </p>
+                </div>
             </div>
         </>
     )

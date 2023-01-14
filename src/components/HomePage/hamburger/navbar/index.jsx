@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { HamburgerMenu } from "../hamburger";
+import { HamburgerMenu } from "..";
 
 const NavbarContainer = styled.div`
 
@@ -17,7 +17,7 @@ const NavbarContainer = styled.div`
 export function Navbar(props) {
   return (
     <NavbarContainer>
-      
+
       <HamburgerMenu />
     </NavbarContainer>
   );

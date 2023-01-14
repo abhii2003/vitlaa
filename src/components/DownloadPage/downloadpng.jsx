@@ -5,11 +5,16 @@ const brocher = require("../DownloadPage/FDP_on_LA_Brochure.pdf");
 export default function DownloadPng() {
     return (
         <>
-            <div className="images-cont">
-                <img className='images' src={brocherimg} alt="download png" />
+            <div className="cont-image-container-download">
+
+                <div className="images-cont">
+                    <img className='images' src={brocherimg} alt="download png" />
+                </div>
             </div>
-            <div className="download-btn">
-                <a href={brocher} download="FDP_on_LA_Brochure" className="dtext"><button className="btn btn-contained btn-success" >DOWNLOAD</button></a>
+            <div className='button-container'>
+                <div className="download-btn">
+                    <a href={brocher} download="FDP_on_LA_Brochure" className="dtext"><button className="btn btn-contained btn-success" >DOWNLOAD</button></a>
+                </div>
             </div>
         </>
     )

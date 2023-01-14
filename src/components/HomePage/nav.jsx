@@ -1,44 +1,66 @@
-
 import React from 'react';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+
+
+
+
 
 
 export default function Nav() {
     return (
 
+        <div className='nav-container'>
 
-        <nav>
-            <ul className='navList'>
-                <li className='nav-items' id='Home'>
-                    <a href="#HomePage"><button className='navButton'><a href="#HomePage" class="navText">HOME</a></button></a></li>
+            <nav>
+                <ul className='navList'>
+                    <li className='nav-items' id='Home'>
+                        <NavLink to={{ pathname: "/home", hash: "#HomePage" }} ><button className='navButton'><NavLink to={{ pathname: "/home", hash: "#HomePage" }} className="navButton navText">
+                            HOME
+                        </NavLink></button></NavLink></li>
 
-                <li className='nav-items' id='About'>
-                    <a href="#AboutPage"><button className='navButton'><a href="#AboutPage" class="navText">ABOUT</a></button></a></li>
+                    <li className='nav-items' id='About'>
+                        <NavLink to={{ pathname: "/home", hash: "#AboutPage" }}  ><button className='navButton'><NavLink to={{ pathname: "/home", hash: "#AboutPage" }} className="navButton navText" >
+                            ABOUT
+                        </NavLink></button></NavLink></li>
 
-                <li className='nav-items' id='Speakers'>
-                    <a href="#SpeakersPage"><button className='navButton'><a href="#SpeakersPage" class="navText">SPEAKERS</a></button></a></li>
+                    <li className='nav-items' id='Speakers'>
+                        <NavLink to={{ pathname: "/home", hash: "#SpeakersPage" }}><button className='navButton'><NavLink to={{ pathname: "/home", hash: "#SpeakersPage" }} className="navButton navText">
+                            SPEAKERS
+                        </NavLink></button></NavLink></li>
 
-                <li className='nav-items' id='Schedule'>
-                    <a href="#SchedulePage"><button className='navButton'><a href="#SchedulePage" class="navText">SCHEDULE</a></button></a></li>
+                    <li className='nav-items' id='Schedule'>
+                        <NavLink to={{ pathname: "/home", hash: "#SchedulePage" }}><button className='navButton'><NavLink to={{ pathname: "/home", hash: "#SchedulePage" }} className="navButton navText">
+                            SCHEDULE
+                        </NavLink></button></NavLink></li>
 
-                <li className='nav-items' id='Download'>
-                    <a href="#DownloadPage"><button className='navButton'><a href="#DownloadPage" class="navText">DOWNLOAD</a></button></a></li>
+                    <li className='nav-items' id='Download'>
+                        <NavLink to={{ pathname: "/home", hash: "#DownloadPage" }}><button className='navButton'><NavLink to={{ pathname: "/home", hash: "#DownloadPage" }} className="navButton navText">
+                            DOWNLOAD
+                        </NavLink></button></NavLink></li>
 
 
 
 
-                {/* just type in sponsor in navText class a to enable the sponsors button  */}
-                <li className='nav-items part2' id='Sponsors'>
-                    <a href="#SponsorPage"><button className='navButton'><a href="#SponsorPage" class="navText"></a></button></a></li>
-                {/* just type in sponsor in navText class a to enable the sponsors button  */}
-                <li className='nav-items' id='FAQs'>
-                    <a href="#FAQPage">
-                        <button className='navButton'><a href="#FAQPage" class="navText"></a></button></a></li>
+                    {/* just type in sponsor in navText class a to enable the sponsors button  */}
+                    <li className='nav-items part2' id='Sponsors'>
+                        <NavLink to="/team" ><button className='navButton'><NavLink to="/team" className="navButton navText">
+                            TEAM
+                        </NavLink></button></NavLink></li>
+                    {/* just type in sponsor in navText class a to enable the sponsors button  */}
+                    <li className='nav-items' id='FAQs'>
+                        <NavLink to="/#FAQPage">
+                            <button className='navButton'><NavLink to="#FAQPage" className="navButton navText">
 
-                <li className='nav-items' id='Registration'>
+                            </NavLink></button></NavLink></li>
 
-                    <a href="#RegistrationPage"><button className='navButton'><a href="#RegistrationPage" class="navText">REGISTRATIONS</a></button></a></li>
-            </ul>
-        </nav>
+                    <li className='nav-items' id='Registration'>
 
+                        <NavLink to={{ pathname: "/home", hash: "RegistrationPage" }}><button className='navButton'><NavLink to={{ pathname: "/home", hash: "RegistrationPage" }} className="navButton navText">
+                            REGISTRATIONS
+                        </NavLink></button></NavLink></li>
+                </ul>
+            </nav>
+
+        </div >
     );
 }
