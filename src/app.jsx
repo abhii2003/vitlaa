@@ -11,12 +11,14 @@ import SchedulePage from './components/SchedulePage/schedulepage';
 import DownloadPage from './components/DownloadPage/downloadpage';
 import RegistrationPage from './components/RegistrationPage/registrationpage';
 
+
 export default function App() {
     return (
 
         <>
 
             <Nav />
+
 
 
             <Routes>

@@ -38,9 +38,6 @@ export default function Nav() {
                             DOWNLOAD
                         </NavLink></button></NavLink></li>
 
-
-
-
                     {/* just type in sponsor in navText class a to enable the sponsors button  */}
                     <li className='nav-items part2' id='Sponsors'>
                         <NavLink to="/team" ><button className='navButton'><NavLink to="/team" className="navButton navText">

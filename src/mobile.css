@@ -735,7 +735,19 @@ nav {
   height: 100vh;
   width: 100vw;
   background: #000000;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 90%;
 }
+
+.schedule-container {
+  grid-row: 1;
+}
+
+.cont-image-container {
+  grid-row: 2;
+}
+
 
 .schedule-cont {
   position: absolute;
@@ -758,39 +770,8 @@ nav {
 
 .scheduleCont {
   width: 50%;
-  margin-left: 10vw;
-  font-family: Six Caps;
-  font-size: 100px;
-  line-height: 10vh;
-  letter-spacing: 0em;
-  text-align: left;
-  display: inline-block;
-  margin: 100px;
-
-
 }
 
-.line1-schedule {
-  color: #FFFFFF;
-  font-weight: 100;
-  position: relative;
-  margin-left: -30px;
-  font-size: 30vw;
-}
-
-.line2-schedule {
-  color: #DA453B;
-  font-weight: 100;
-  margin-left: -30px;
-  font-size: 30vw;
-}
-
-.line3-schedule {
-  color: #FFFFFF;
-  font-weight: 100;
-  margin-left: -30px;
-  font-size: 30vw;
-}
 
 /* download */
 

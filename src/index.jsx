@@ -1,5 +1,5 @@
-import './computer.css';
-// import './mobile.css';
+// import './computer.css';
+import './mobile.css';
 import App from './app';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
