@@ -10,6 +10,8 @@ import { NavMenu } from "./navMenu";
 const HamburgerMenuContainer = styled.div`
 
   display: flex;
+  margin-right:12vw;
+  margin-top:7.5px;
 `;
 
 

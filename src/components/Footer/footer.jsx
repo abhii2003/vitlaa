@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="foot-container">
 
           <div className="footer-cont1">
-            <div className="heading-footer1">
+            <div className="heading-footer1 heading-footer">
 
               <h3>Convenors</h3>
             </div>
@@ -26,11 +26,11 @@ export default function Footer() {
 
 
           <div className="footer-cont2">
-            <div className="heading-footer2">
+            <div className="heading-footer2 heading-footer">
 
               <h3>Register At</h3>
             </div>
-            <div className="content-footer">
+            <div className="content-footer copyrights">
 
               <a href="https://vitchennaievents.com" className="dtext"><p className="name-footer2">https://vitchennaievents.com</p></a>
               <p>© 2023 All rights reserved | Design & Developed by VIT Chennai</p>
@@ -40,7 +40,7 @@ export default function Footer() {
 
 
           <div className="footer-cont3">
-            <div className="heading-footer3">
+            <div className="heading-footer3 heading-footer">
 
               <h3>Designed and Developed By</h3>
             </div>

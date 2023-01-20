@@ -13,7 +13,6 @@ export default function HomePage() {
         <>
             <Navbar />
             <Heading />
-
             <Subhead />
             <CountdownTimer targetDate={dateTimeTarget} />
             <FooterHome />

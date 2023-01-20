@@ -2,18 +2,18 @@
 import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
-import { MenuToggle } from "./menuToggle";
 
 const NavMenuContainer = styled.div`
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   border:none;
+  opacity: 0.9;
 `;
 
 const NavList = styled.ul`
   padding: 0 0.8em;
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
 `;
@@ -54,7 +54,7 @@ const variants = {
 
 export function NavMenu({ isOpen }) {
   return (
-    <NavMenuContainer>
+    <NavMenuContainer >
       <NavList>
         <NavLink
           initial={false}
@@ -70,8 +70,10 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
+
           <a href="#HomePage">Home</a>
-          
+
+
         </NavLink>
         <NavLink
           initial={false}
@@ -152,6 +154,22 @@ export function NavMenu({ isOpen }) {
           }}
         >
           <a href="#RegistrationPage">Registration</a>
+        </NavLink>
+        <NavLink
+          initial={false}
+          animate={isOpen ? "show" : "hide"}
+          variants={{
+            show: {
+              ...variants.show,
+              transition: { delay: 0.4, duration: 0.2 },
+            },
+            hide: {
+              ...variants.hide,
+              transition: { delay: 0.1, duration: 0.05 },
+            },
+          }}
+        >
+          <a href="/team">Team</a>
         </NavLink>
       </NavList>
     </NavMenuContainer>

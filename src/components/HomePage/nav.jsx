@@ -44,11 +44,11 @@ export default function Nav() {
                             TEAM
                         </NavLink></button></NavLink></li>
                     {/* just type in sponsor in navText class a to enable the sponsors button  */}
-                    <li className='nav-items' id='FAQs'>
+                    {/* <li className='nav-items' id='FAQs'>
                         <NavLink to="/#FAQPage">
                             <button className='navButton'><NavLink to="#FAQPage" className="navButton navText">
 
-                            </NavLink></button></NavLink></li>
+                            </NavLink></button></NavLink></li> */}
 
                     <li className='nav-items' id='Registration'>
 

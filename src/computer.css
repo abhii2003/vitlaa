@@ -74,13 +74,6 @@ common css /////////////////////////////////////////////////////////////////////
         font-weight: 200;
     }
 
-    .content {
-        font-family: 'inter', sans-serif;
-        font-weight: 300;
-        font-size: 1.1vw;
-        line-height: 2rem;
-        display: block;
-    }
 
 
 
@@ -189,15 +182,15 @@ and the page section size///////////////////////////////////////////////////////
     }
 
     #Sponsors {
-        margin-left: 27vw;
+        margin-left: 41.3vw;
     }
 
-    #FAQs {
-        margin-left: 4vw;
-    }
+    /* #FAQs {
+        margin-left: 0vw;
+    } */
 
     #Registration {
-        margin-left: 10vw;
+        margin-left: 3.5vw;
 
     }
 
@@ -235,7 +228,7 @@ and the page section size///////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////*/
 
     .nav-container {
-        grid-column: 1 span 2;
+        grid-column: 1 / span 2;
         grid-row: 1;
 
     }
@@ -255,8 +248,8 @@ and the page section size///////////////////////////////////////////////////////
         grid-column: 2;
     }
 
-    .earlybird-coontainer {
-        grid-row: 4;
+    .earlybird-container {
+        grid-row: 5;
         grid-column: 2;
     }
 
@@ -409,16 +402,19 @@ and the page section size///////////////////////////////////////////////////////
         margin-left: 5vw;
         font-family: "inter", sans-serif;
         color: #FFFFFFB2;
+        transform: translate(0%, 150%);
     }
 
     .sub-l3 {
         font-size: 1.5vw;
         font-weight: 800;
+
     }
 
     .sub-l4 {
         font-size: 1vw;
         font-weight: 300;
+
     }
 
     /*Early Bird Offer ///////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -447,11 +443,9 @@ and the page section size///////////////////////////////////////////////////////
         border: none;
         background-color: #000000;
         font-family: 'inter', sans-serif;
-        margin-top: 65vh;
-        margin-bottom: -20px;
-        margin-left: 0vw;
         height: 8vw;
         width: 46.5vw;
+        margin-left: 1.2vw;
     }
 
 
@@ -524,11 +518,6 @@ and the page section size///////////////////////////////////////////////////////
 
     }
 
-
-
-
-
-
     /*////////////////////////////////////////////////////////////////////////////////////*/
 
 
@@ -592,8 +581,10 @@ and the page section size///////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
     #SpeakersPage {
         display: grid;
+
         grid-template-columns: 1;
-        grid-template-rows: 15% repeat(2, 42.5%);
+        grid-template-rows: 15% repeat(2, 37.5%);
+        grid-template-columns: 4;
         scroll-margin-top: 3em;
     }
 
@@ -604,19 +595,82 @@ and the page section size///////////////////////////////////////////////////////
 
     .heading-container-speaker {
         grid-row: 1;
-        grid-column: 1;
+        grid-column: 1 / span 4;
     }
 
-    .box1 {
-
+    .cont1 {
+        grid-column: 1;
         grid-row: 2;
-        grid-column: 1;
     }
 
-    .box2 {
-        grid-row: 3;
-        grid-column: 1;
+    .cont2 {
+        grid-column: 2;
+        grid-row: 2;
     }
+
+    .cont3 {
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    .cont4 {
+        grid-column: 4;
+        grid-row: 2;
+    }
+
+    .cont5 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .cont6 {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .cont7 {
+        grid-column: 3;
+        grid-row: 3;
+    }
+
+    .prof1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .prof2 {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .prof3 {
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    .prof4 {
+        grid-column: 4;
+        grid-row: 2;
+    }
+
+    .prof5 {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .prof6 {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .prof7 {
+        grid-column: 3;
+        grid-row: 3;
+    }
+
+
+
+
 
 
     /*////////////////////////////////////////////////////////////////////////////////////*/
@@ -631,21 +685,6 @@ and the page section size///////////////////////////////////////////////////////
     }
 
     /* speakercards */
-    .box1 {
-        display: inline-flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        width: 90vw;
-        height: 100%;
-    }
-
-    .box2 {
-        display: inline-flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        width: 85vw;
-        height: 100%;
-    }
 
 
     .img-speaker {
@@ -654,83 +693,57 @@ and the page section size///////////////////////////////////////////////////////
         border-radius: 10px;
     }
 
-    .box1 {
-        margin-left: 4vw;
-    }
 
-    .box2 {
-        margin-left: 12vw;
-    }
-
-
-
-    .container {
-        position: absolute;
-        background-color: #FFFFFF;
-        width: 15%;
-        height: 35%;
-        margin: 50vh;
-        padding: 30%;
-    }
-
-
-
-    .cont1,
-    .cont2,
-    .cont3,
-    .cont4 {
+    .cont {
         border-radius: 10px;
         height: 16.37vw;
-        margin-left: 7vw;
-        margin-right: 2vw;
+        width: 13vw;
+        margin-left: 5.3vw;
         padding: 0px;
-        padding-right: 0px;
-        margin-bottom: 1vw;
-        margin-top: 1vw;
     }
 
     .cont5,
-    .cont6 {
-        border-radius: 10px;
-        height: 16.37vw;
-        margin-left: 9vw;
-        margin-right: 0.5vw;
-        padding: 0px;
-        padding-right: 0px;
-        margin-bottom: 1vw;
+    .cont6,
+    .cont7,
+    .prof5,
+    .prof6,
+    .prof7 {
+        transform: translate(95%, 0%);
 
     }
 
-    .cont7 {
-        border-radius: 10px;
-        height: 16.37vw;
-        margin-left: 8.5vw;
-        margin-right: 0.5vw;
-        padding: 0px;
-        padding-right: 0px;
-        margin-bottom: 1vw;
-    }
 
-    .content {
-        display: none;
+
+    .prof {
+        visibility: hidden;
         color: #FFFFFF;
-        position: relative;
-        margin-top: 5vh;
+        z-index: 0;
         font-family: "inter", sans-serif;
         font-size: 0.845vw;
-        transform: translate(5%, -140%);
+        border-radius: 10px;
+        height: 6.37vw;
+        width: 12.5vw;
+        margin-left: 6.3vw;
+        margin-top: 40%;
+
     }
+
+
 
     .cont:hover .img-speaker {
         opacity: 0.2;
         transition: 0.2s;
-    }
-
-    .cont:hover .content {
-        display: block;
-
 
     }
+
+    .cont:hover .prof {
+        visibility: visible;
+        transition: 0.2s;
+    }
+
+
+
+
 
 
     /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -783,7 +796,7 @@ and the page section size///////////////////////////////////////////////////////
 
     .cont-image-container-download {
         margin-top: 7vh;
-        grid-row: 2;
+        grid-row: 2/ span 2;
         grid-column: 1;
 
     }
@@ -837,17 +850,17 @@ and the page section size///////////////////////////////////////////////////////
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 10% 10% 70% 10%;
-
+        scroll-margin-top: 3em;
     }
 
     .heading-container-registration {
-        grid-row: 1;
+        grid-row: 1 / span 2;
         grid-column: 1;
     }
 
     .cont-image-container-registration {
-        grid-template-columns: 1;
-        grid-template-rows: 2;
+        grid-column: 1;
+        grid-row: 2;
     }
 
     .cont-image-container-registration {
@@ -1002,23 +1015,46 @@ and the page section size///////////////////////////////////////////////////////
         color: #DA453B;
     }
 
+    /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    TEAMS PAGE /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+    #TeamPage {
+        scroll-margin-top: 3em;
+        display: grid;
+
+    }
+
+    .heading-container-team {
+        margin-top: 3em;
+        margin-bottom: -70px;
+
+    }
+
     .team-heading {
         color: #DA453B;
         font-family: 'six caps', sans-serif;
         letter-spacing: 0.15vw;
         font-size: 10vh;
         font-weight: 100;
+        text-align: center;
+        margin-top: -10px;
+
     }
 
     .team-content {
         color: #ffffff;
         font-size: 4vh;
         font-family: 'barlow', sans-serif;
+        text-align: center;
+        margin-top: -25px;
+        margin-bottom: 25px;
     }
 
     .team-content>span {
         font-size: 4vh;
         font-family: 'barlow', sans-serif;
         font-weight: bolder;
+        text-align: center;
     }
 }

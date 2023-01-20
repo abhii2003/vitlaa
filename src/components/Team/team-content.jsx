@@ -2,7 +2,9 @@ import React from "react";
 
 export default function TeamContent() {
     return (
-        <div className="container-team">
+        <>
+
+
             <div className="organizers">
 
                 <h1 className="team-heading">
@@ -74,6 +76,8 @@ export default function TeamContent() {
                 </p>
             </div>
 
-        </div>
+
+
+        </>
     );
 }
