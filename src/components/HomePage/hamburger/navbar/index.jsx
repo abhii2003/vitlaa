@@ -1,23 +1,30 @@
 import React from "react";
 import styled from "styled-components";
-import { HamburgerMenu } from "../hamburger";
+import { HamburgerMenu } from "..";
 
 const NavbarContainer = styled.div`
 
-  width: 85%;
-  height: 55px;
-  display: flex;
+  width: 100%;
+  height: 50px;
+  display:flex;  
   flex-direction: row-reverse;
   align-items: center;
   padding: 0 1.5em;
   user-select: none;
+  position:fixed;
+  z-index:10;
+  height:4.5%;
+  background-color:black;
+  opacity:0.9;
+  
+
   
 `;
 
 export function Navbar(props) {
   return (
-    <NavbarContainer>
-      
+    <NavbarContainer className="navBarmobi">
+
       <HamburgerMenu />
     </NavbarContainer>
   );

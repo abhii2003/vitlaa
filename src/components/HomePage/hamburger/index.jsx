@@ -10,6 +10,8 @@ import { NavMenu } from "./navMenu";
 const HamburgerMenuContainer = styled.div`
 
   display: flex;
+  margin-right:12vw;
+  margin-top:7.5px;
 `;
 
 
@@ -79,11 +81,11 @@ export function HamburgerMenu(props) {
         transition={menuTransition}
       >
         <MenuToggle toggle={toggleMenu} isOpen={isOpen} />
-        
+
         <ContentContainer>
-        
-        <NavMenu isOpen={isOpen} />
-          
+
+          <NavMenu isOpen={isOpen} />
+
         </ContentContainer>
       </MenuContainer>
     </HamburgerMenuContainer>
