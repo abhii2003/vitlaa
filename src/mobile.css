@@ -107,6 +107,7 @@ only screen and (min-resolution: 2dppx) {
   /*button styles for registration button and download button ////////////////////////////////////////////////////////////////////*/
   .btn {
     border: 0;
+    z-index: 10;
     cursor: pointer;
     padding: 6px 16px;
     font-size: 0.875rem;
@@ -647,6 +648,10 @@ only screen and (min-resolution: 2dppx) {
     grid-template-rows: 10% 90%;
   }
 
+  .mobimagenone {
+    display: none;
+  }
+
   .schedule-container {
     grid-row: 1;
   }
@@ -675,7 +680,24 @@ only screen and (min-resolution: 2dppx) {
   }
 
   .scheduleCont {
-    width: 50%;
+    width: 75%;
+    height: 100%;
+    transform: translate(0, 18%);
+    margin-left: -10px;
+  }
+
+  .schedule1 {
+    display: none;
+  }
+
+  .schedule2 {
+    display: none;
+  }
+
+  .schedule3 {
+    z-index: 5;
+    height: 70%;
+
   }
 
 
@@ -708,9 +730,6 @@ only screen and (min-resolution: 2dppx) {
     width: 70%;
   }
 
-  .download-png {
-    display: none
-  }
 
 
   .button-container {

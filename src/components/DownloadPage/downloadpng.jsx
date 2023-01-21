@@ -5,8 +5,8 @@ const brocher = require("../DownloadPage/FDP_on_LA_Brochure.pdf");
 export default function DownloadPng() {
     return (
         <>
-            <div className="cont-image-container-download">
-                <div className="images-cont">
+            <div className="cont-image-container-download ">
+                <div className="images-cont mobimagenone">
                     <img className='images' src={brocherimg} alt="brocher png" />
                 </div>
             </div>

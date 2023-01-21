@@ -1,6 +1,6 @@
 import React from 'react';
-import { Navbar } from './hamburger/navbar/index';
 import Heading from './heading';
+import { Navbar } from './hamburger/navbar/index';
 import Subhead from './subhead';
 import CountdownTimer from './CountdownTimer';
 import FooterHome from './footerHome';
