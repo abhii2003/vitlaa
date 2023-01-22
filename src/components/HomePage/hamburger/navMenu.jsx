@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
-
+import { Link } from "react-router-dom";
 const NavMenuContainer = styled.div`
   width: 80%;
   display: flex;
