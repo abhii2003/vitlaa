@@ -5,7 +5,7 @@ export default function DownloadContent() {
     <div className="subhead-container">
       <div className="download-content">
         <h1>TOPICS TO BE COVERED</h1>
-        <ol style="color:#fff;">
+        <ol>
           <li>MATRICES, VECTOR SPACES</li>
           <li>LINEAR TRANSFORMATION</li>
           <li> EIGENVALUES & EIGENVECTORS</li>
