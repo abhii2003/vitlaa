@@ -54,7 +54,7 @@ export default function Nav() {
           {/* just type in sponsor in navText class a to enable the sponsors button  */}
           <li className="nav-items part2" id="Sponsors">
             <NavLink to="/team" className="navButton navText">
-              <button className="navButton">TEAM</button>
+              <button className="navButton">COMMITTEE</button>
             </NavLink>
           </li>
           {/* just type in sponsor in navText class a to enable the sponsors button  */}
