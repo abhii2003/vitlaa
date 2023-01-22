@@ -7,67 +7,47 @@ export default function Nav() {
       <nav>
         <ul className="navList">
           <li className="nav-items" id="Home">
-            <NavLink to={{ pathname: "/home", hash: "#HomePage" }}>
-              <button className="navButton">
-                <NavLink
-                  to={{ pathname: "/home", hash: "#HomePage" }}
-                  className="navButton navText"
-                >
-                  HOME
-                </NavLink>
-              </button>
+            <NavLink
+              to={{ pathname: "/home", hash: "#HomePage" }}
+              className="navButton navText"
+            >
+              <button className="navButton">HOME</button>
             </NavLink>
           </li>
 
           <li className="nav-items" id="About">
-            <NavLink to={{ pathname: "/home", hash: "#AboutPage" }}>
-              <button className="navButton">
-                <NavLink
-                  to={{ pathname: "/home", hash: "#AboutPage" }}
-                  className="navButton navText"
-                >
-                  ABOUT
-                </NavLink>
-              </button>
+            <NavLink
+              to={{ pathname: "/home", hash: "#AboutPage" }}
+              className="navButton navText"
+            >
+              <button className="navButton">ABOUT</button>
             </NavLink>
           </li>
 
           <li className="nav-items" id="Speakers">
-            <NavLink to={{ pathname: "/home", hash: "#SpeakersPage" }}>
-              <button className="navButton">
-                <NavLink
-                  to={{ pathname: "/home", hash: "#SpeakersPage" }}
-                  className="navButton navText"
-                >
-                  SPEAKERS
-                </NavLink>
-              </button>
+            <NavLink
+              to={{ pathname: "/home", hash: "#SpeakersPage" }}
+              className="navButton navText"
+            >
+              <button className="navButton">SPEAKERS</button>
             </NavLink>
           </li>
 
           <li className="nav-items" id="Schedule">
-            <NavLink to={{ pathname: "/home", hash: "#SchedulePage" }}>
-              <button className="navButton">
-                <NavLink
-                  to={{ pathname: "/home", hash: "#SchedulePage" }}
-                  className="navButton navText"
-                >
-                  SCHEDULE
-                </NavLink>
-              </button>
+            <NavLink
+              to={{ pathname: "/home", hash: "#SchedulePage" }}
+              className="navButton navText"
+            >
+              <button className="navButton">SCHEDULE</button>
             </NavLink>
           </li>
 
           <li className="nav-items" id="Download">
-            <NavLink to={{ pathname: "/home", hash: "#DownloadPage" }}>
-              <button className="navButton">
-                <NavLink
-                  to={{ pathname: "/home", hash: "#DownloadPage" }}
-                  className="navButton navText"
-                >
-                  DOWNLOAD
-                </NavLink>
-              </button>
+            <NavLink
+              to={{ pathname: "/home", hash: "#DownloadPage" }}
+              className="navButton navText"
+            >
+              <button className="navButton">DOWNLOAD</button>
             </NavLink>
           </li>
 
@@ -85,15 +65,11 @@ export default function Nav() {
                             </NavLink></button></NavLink></li> */}
 
           <li className="nav-items" id="Registration">
-            <NavLink to={{ pathname: "/home", hash: "RegistrationPage" }}>
-              <button className="navButton">
-                <NavLink
-                  to={{ pathname: "/home", hash: "RegistrationPage" }}
-                  className="navButton navText"
-                >
-                  REGISTRATIONS
-                </NavLink>
-              </button>
+            <NavLink
+              to={{ pathname: "/home", hash: "RegistrationPage" }}
+              className="navButton navText"
+            >
+              <button className="navButton">REGISTRATIONS</button>
             </NavLink>
           </li>
         </ul>
