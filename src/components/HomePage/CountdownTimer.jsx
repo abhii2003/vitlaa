@@ -8,7 +8,7 @@ const ExpiredNotice = () => {
     <div className='earlybird-container'>
 
       <div className="expired-notice">
-        <span>Early Bird Offer Ended  ...(⌣̩̩́_⌣̩̩̀) </span>
+        <span>EVENT STARTED </span>
 
       </div>
     </div>
@@ -24,7 +24,7 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
           <a className="countdown-link">
 
             <div className='early'>
-              <p><br />EARLY BIRD<br /> ENDS IN</p><br />
+              <p><br />EVENT<br />STARTS IN</p><br />
             </div>
             <DateTimeDisplay value={days} type={'Days'} isDanger={days <= 60} />
             <p>:</p>
