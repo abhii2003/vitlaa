@@ -400,7 +400,7 @@ and the page section size///////////////////////////////////////////////////////
   }
 
   .navButton {
-    min-width: fit-content;
+    /* min-width: fit-content; */
     background-color: Transparent;
     border: none;
     color: #ffffff;
@@ -485,6 +485,13 @@ and the page section size///////////////////////////////////////////////////////
 
     width: 70%;
     height: 80%;
+  }
+
+  .fourth-line {
+    margin: 0;
+    color: #ffba6d;
+    font-size: 3vw;
+    font-weight: 500;
   }
 
   .heading>h1 {

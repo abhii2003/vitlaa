@@ -55,6 +55,7 @@ export default function Heading() {
         <h1 className="third-line rolling-text" id="ThirdLine">
           AND ITS APPLICATIONS
         </h1>
+        <h1 className="fourth-line" id='FourthLine'>HYBRID MODE</h1>
       </div>
     </>
 
