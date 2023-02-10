@@ -488,10 +488,43 @@ and the page section size///////////////////////////////////////////////////////
   }
 
   .fourth-line {
-    margin: 0;
+    font-family: "six caps", sans-serif;
     color: #ffba6d;
     font-size: 3vw;
+    letter-spacing: 3px;
     font-weight: 500;
+    margin: auto;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-color: #ffba6d;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    overflow: hidden;
+    transition: border 0.3s 0.1s ease-out, color 0.3s 0.1s ease-out;
+    text-align: center;
+  }
+
+  .fourth-line::before {
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    line-height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: -1;
+  }
+
+  .fourth-line:hover {
+    color: #ff0000;
+    border-color: #ff0000;
+  }
+
+  .fourth-line:hover::before {
+    box-shadow: inset 0 0 0 10em #ffba6d;
   }
 
   .heading>h1 {
