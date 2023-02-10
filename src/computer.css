@@ -487,21 +487,11 @@ and the page section size///////////////////////////////////////////////////////
     height: 80%;
   }
 
-  /* .fourth-line {
-    margin: 0;
-    color: #ffba6d;
-    font-size: 2.5vw;
-    font-weight: 500;
-    background-color: transparent;
-    border-color: #ffba6d;
-    border-radius: 5px;
-    border-width: 4px;
-    cursor: pointer;
-  } */
   .fourth-line {
-    margin: 0;
+    font-family: "six caps", sans-serif;
     color: #ffba6d;
-    font-size: 2vw;
+    font-size: 3vw;
+    letter-spacing: 3px;
     font-weight: 500;
     margin: auto;
     text-decoration: none;
