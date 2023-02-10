@@ -231,6 +231,14 @@ only screen and (min-resolution: 2dppx) {
     margin-bottom: 8px;
   }
 
+  .fourth-line {
+    margin: 0;
+    color: #ffba6d;
+    font-size: 3vw;
+    font-weight: 500;
+    background-color: transparent;
+  }
+
 
   /* subhead */
   .sub-head {
