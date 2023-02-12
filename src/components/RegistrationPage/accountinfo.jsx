@@ -7,7 +7,7 @@ const fees = [
     fee: "Rs. 1000",
   },
   { id: 2, category: "Indian Research Scholars", fee: "Rs. 1200" },
-  { id: 3, category: "Indian UG/PG Students", fee: "Rs. 1500" },
+  { id: 3, category: "Indian Faculty/Industry Person", fee: "Rs. 1500" },
   {
     id: 4,
     category: "VIT Chennai Scholars/Faculty",
