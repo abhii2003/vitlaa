@@ -3,6 +3,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./computer.css";
 import "./mobile.css";
+import "./tablet.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 

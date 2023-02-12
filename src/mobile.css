@@ -12,10 +12,10 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 750px),
-only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 750px),
-only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 750px),
-only screen and (min-device-pixel-ratio: 2) and (max-width: 750px),
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 800px),
+only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 800px),
+only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 800px),
+only screen and (min-device-pixel-ratio: 2) and (max-width: 800px),
 only screen and (min-resolution: 2dppx) {
 
 
@@ -112,17 +112,12 @@ only screen and (min-resolution: 2dppx) {
     padding: 6px 16px;
     font-size: 0.875rem;
     min-width: 64px;
-    box-sizing: border-box;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     font-weight: 500;
     line-height: 1.75;
     border-radius: 4px;
     letter-spacing: 0.02857em;
   }
 
-  .btn-contained {
-    box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%), 0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
-  }
 
   .btn-success {
     color: #fff;
@@ -911,7 +906,6 @@ only screen and (min-resolution: 2dppx) {
     font-size: 5vh;
     font-weight: 100;
     text-align: center;
-
 
   }
 
