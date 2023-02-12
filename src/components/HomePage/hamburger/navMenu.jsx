@@ -161,11 +161,11 @@ export function NavMenu({ isOpen }) {
           variants={{
             show: {
               ...variants.show,
-              transition: { delay: 0.4, duration: 0.2 },
+              transition: { delay: 0.9, duration: 0.2 },
             },
             hide: {
               ...variants.hide,
-              transition: { delay: 0.1, duration: 0.05 },
+              transition: { delay: 0.35, duration: 0.05 },
             },
           }}
         >
