@@ -65,10 +65,7 @@ export default function Nav() {
                             </NavLink></button></NavLink></li> */}
 
           <li className="nav-items" id="Registration">
-            <NavLink
-              to={{ pathname: "/home", hash: "RegistrationPage" }}
-              className="navButton navText"
-            >
+            <NavLink to="/registration" className="navButton navText">
               <button className="navButton">REGISTRATIONS</button>
             </NavLink>
           </li>

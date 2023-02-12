@@ -153,7 +153,7 @@ export function NavMenu({ isOpen }) {
             },
           }}
         >
-          <a href="#RegistrationPage">Registration</a>
+          <a href="/registration">Registration</a>
         </NavLink>
         <NavLink
           initial={false}
