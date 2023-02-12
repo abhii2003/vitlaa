@@ -210,15 +210,19 @@ common css /////////////////////////////////////////////////////////////////////
 and the page section size////////////////////////////////////////////////////////////////////*/
   body {
     background-color: #000000;
-    margin: 0vh;
+    margin: 0;
+    border: 0;
   }
 
   .page {
-    margin: 0;
-    border: 0;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    max-width: 100vw;
     background: #000000;
+  }
+
+  .section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .images-cont {
@@ -276,7 +280,7 @@ and the page section size///////////////////////////////////////////////////////
   }
 
   #color-RED {
-    color: #DA453B;
+    color: #da453b;
   }
 
   #Home {
@@ -301,7 +305,6 @@ and the page section size///////////////////////////////////////////////////////
 
   #Sponsors {
     margin-left: 35.3vw;
-
   }
 
   /* #FAQs {
@@ -343,11 +346,6 @@ and the page section size///////////////////////////////////////////////////////
     Grid position of elements on homepage////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////////////*/
 
-  .nav-container {
-    grid-column: 1 / span 2;
-    grid-row: 1;
-  }
-
   .logo-container {
     grid-row: 2;
     grid-column: 1;
@@ -379,20 +377,21 @@ and the page section size///////////////////////////////////////////////////////
 
   .nav-container {
     position: fixed;
-    display: inline-flex;
-    margin: 0vw;
-    border: 0vw;
-    background: rgb(18, 18, 18);
-    opacity: 98%;
+    display: block;
+    padding: 10px;
+    top: 0;
+    margin: 0;
+    border: 0;
+    background-color: rgba(18, 18, 18, 0.9);
     z-index: 99;
   }
 
-  nav>ul {
+  nav > ul {
     width: 100vw;
     display: flex;
   }
 
-  nav>ul>li {
+  nav > ul > li {
     list-style: none;
     color: #ffffff;
     font-family: "inter", sans-serif;
@@ -400,7 +399,7 @@ and the page section size///////////////////////////////////////////////////////
     font-weight: 800;
   }
 
-  nav>ul>li>a {
+  nav > ul > li > a {
     font-family: "inter", sans-serif;
   }
 
@@ -409,14 +408,13 @@ and the page section size///////////////////////////////////////////////////////
     background-color: Transparent;
     border: none;
     color: #ffffff;
-    border-radius: 0vh;
     font-family: "inter", sans-serif;
-    height: 1.5vw;
+    height: 1.5rem;
     width: 100%;
   }
 
   .navText {
-    font-size: 0.9vw;
+    font-size: 1.2rem;
   }
 
   .navText:link,
@@ -424,16 +422,16 @@ and the page section size///////////////////////////////////////////////////////
     color: #ffffff;
     text-decoration: none;
     position: relative;
-    padding-bottom: 0.1vh;
+    padding-bottom: 0.1rem;
   }
 
   .navText::after {
     content: "";
     position: absolute;
     width: 100%;
-    height: 1.5px;
+    height: 3px;
     background-color: #ffffff;
-    bottom: 0;
+    bottom: -5px;
     left: 0;
     transform: scale(0);
     transition: 0.2s all ease-out;
@@ -441,11 +439,6 @@ and the page section size///////////////////////////////////////////////////////
 
   .navText:hover::after {
     transform: scale(1);
-  }
-
-  .navList {
-    padding: 0;
-    margin: 1.5vh 0vh 1.5vh 0vh;
   }
 
   /*/////////////////////////////////////////////////////////////////////////////////////////////
@@ -513,7 +506,7 @@ and the page section size///////////////////////////////////////////////////////
 
   .fourth-line::before {
     margin: auto;
-    content: '';
+    content: "";
     border-radius: 50%;
     display: block;
     line-height: 20em;
@@ -530,10 +523,9 @@ and the page section size///////////////////////////////////////////////////////
 
   .fourth-line:hover::before {
     box-shadow: inset 0 0 0 10em #ffba6d;
-
   }
 
-  .heading>h1 {
+  .heading > h1 {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 5vw;
@@ -563,7 +555,7 @@ and the page section size///////////////////////////////////////////////////////
 
   /*Early Bird Offer ///////////////////////////////////////////////////////////////////////////////////////////////////////*/
   /* countdown timer  */
-  .expired-notice>span {
+  .expired-notice > span {
     color: #f10808;
   }
 
@@ -603,11 +595,11 @@ and the page section size///////////////////////////////////////////////////////
     color: #ff0033;
   }
 
-  .show-counter .countdown>p {
+  .show-counter .countdown > p {
     margin: 0;
   }
 
-  .show-counter .countdown>span {
+  .show-counter .countdown > span {
     text-transform: uppercase;
     font-size: 0.7vw;
     line-height: 1rem;
@@ -948,7 +940,7 @@ and the page section size///////////////////////////////////////////////////////
     line-height: 1.5rem;
   }
 
-  .download-content>h1 {
+  .download-content > h1 {
     font-family: "six caps", sans-serif;
     font-weight: 400;
     color: #da453b;
@@ -957,7 +949,7 @@ and the page section size///////////////////////////////////////////////////////
     margin-bottom: 6vh;
   }
 
-  .download-content>ol>li {
+  .download-content > ol > li {
     color: #ffffff;
     font-family: "inter", sans-serif;
     line-height: 5.6vh;
@@ -972,7 +964,6 @@ and the page section size///////////////////////////////////////////////////////
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: 10% 10% 70% 10%;
     scroll-margin-top: 3em;
-
   }
 
   .heading-container-registration {
@@ -1000,26 +991,20 @@ and the page section size///////////////////////////////////////////////////////
     grid-column: 2;
   }
 
-
   .registration-btn {
-    position: absolute;
-    margin-top: 0vh;
-    margin-left: 17vw;
+    margin-top: 2rem;
+    margin-left: 0;
   }
 
   .dtext {
     text-decoration: none;
   }
 
-
   .register-deadline {
-
     width: 50%;
-    margin-top: 10vh;
+    margin-top: 2rem;
     font-family: Six Caps;
-    font-size: 4.5vw;
-    line-height: 10vh;
-
+    font-size: 4rem;
   }
 
   /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -1031,21 +1016,24 @@ and the page section size///////////////////////////////////////////////////////
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 10% 30% 10% 50%;
-
-  }
-
-  .feedetail-content>ol {
-    list-style-type: none;
   }
 
   .feedetail-content {
     color: #fff;
     font-family: "inter", sans-serif;
-    font-size: 1.5vw;
-    margin-top: 5vh;
-    margin-left: 5vw;
-    line-height: 7vh;
+    font-size: 1.25rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+  }
 
+  .feedetail-content > ol > li {
+    margin-top: 1rem;
+  }
+
+  .feedetail-content > table {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   /*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -1095,7 +1083,7 @@ and the page section size///////////////////////////////////////////////////////
     text-align: center;
   }
 
-  .heading-footer1>h3 {
+  .heading-footer1 > h3 {
     margin-bottom: 0;
     font-size: 2.09vw;
     font-family: "six caps", sans-serif;
@@ -1115,7 +1103,7 @@ and the page section size///////////////////////////////////////////////////////
     text-align: center;
   }
 
-  .heading-footer2>h3 {
+  .heading-footer2 > h3 {
     margin-bottom: 0;
     font-size: 2.09vw;
     font-family: "six caps", sans-serif;
@@ -1136,7 +1124,7 @@ and the page section size///////////////////////////////////////////////////////
     text-align: center;
   }
 
-  .heading-footer3>h3 {
+  .heading-footer3 > h3 {
     margin-bottom: 0;
     font-size: 2.09vw;
     font-family: "six caps", sans-serif;
@@ -1180,7 +1168,7 @@ and the page section size///////////////////////////////////////////////////////
     margin-bottom: 25px;
   }
 
-  .team-content>span {
+  .team-content > span {
     font-size: 4vh;
     font-family: "barlow", sans-serif;
     font-weight: bolder;
@@ -1188,18 +1176,12 @@ and the page section size///////////////////////////////////////////////////////
   }
 }
 
-
-
 @media only screen and (max-width: 800px) {
-
-
   .heading-container {
-
-    font-family: 'Six Caps', sans-serif;
+    font-family: "Six Caps", sans-serif;
     letter-spacing: 0.38rem;
     font-size: 9vw;
     margin-left: 5vw;
-
   }
 
   .page-head {
@@ -1211,24 +1193,22 @@ and the page section size///////////////////////////////////////////////////////
     line-height: 8vw;
     letter-spacing: 0.3rem;
     text-align: left;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .footer-head {
     font-size: 2.09vw;
-    font-family: 'six caps', sans-serif;
+    font-family: "six caps", sans-serif;
     font-weight: 200;
   }
 
   .content {
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: 300;
     font-size: 1.1vw;
     line-height: 2rem;
     display: block;
   }
-
-
 
   .images {
     width: 115%;
@@ -1237,14 +1217,11 @@ and the page section size///////////////////////////////////////////////////////
     transform: translate(0, -10px);
   }
 
-
-
   /*background color of all pages but (hidden in the home page due to the image) 
   and the page section size////////////////////////////////////////////////////////////////////*/
   body {
     background-color: #000000;
     margin: 0vh;
-
   }
 
   .page {
@@ -1253,30 +1230,22 @@ and the page section size///////////////////////////////////////////////////////
     height: 100vh;
     width: 100vw;
     background: #000000;
-
   }
 
   .images-cont {
-    margin-left: 0vh;
-    height: 100%;
     width: 70%;
   }
 
   .img-container {
-
-    padding: 1vw;
-    width: 20vw;
+    padding: 1rem;
     background-color: transparent;
-
-
   }
 
   .img {
     width: 100%;
-    padding-top: 20%;
-    padding-left: 10%;
+    padding-top: 2rem;
+    padding-left: 2rem;
   }
-
 
   /*button styles for registration button and download button ////////////////////////////////////////////////////////////////////*/
   .btn {
@@ -1292,36 +1261,33 @@ and the page section size///////////////////////////////////////////////////////
     letter-spacing: 0.02857em;
   }
 
-
   .btn-success {
     color: #fff;
     background-color: #159c33;
   }
 
-
   /*for preventing the anchor links on bottons turnig purple ////////////////////////////////////////////////////////////////////*/
   .flink {
     text-decoration: none;
     font-family: "inter", sans-serif;
-    color: #FFFFFFB2;
+    color: #ffffffb2;
   }
 
   #color {
-    color: #FFBA6D;
+    color: #ffba6d;
   }
 
   /* Hamburger Menu  ///////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
   #root {
-    width: 100vw;
-    height: 100vh;
+    min-width: 100vw;
+    min-height: 100vh;
     margin: 0;
   }
-
 
   .img-container {
     display: flex;
     justify-content: flex-start;
-    padding: 1vw;
+    padding: 1rem;
     width: 25vh;
     background-color: transparent;
     position: relative;
@@ -1331,21 +1297,12 @@ and the page section size///////////////////////////////////////////////////////
     width: 100%;
   }
 
-
-
-
-
   body {
     background-color: #000000;
     margin: 0;
-
   }
 
   /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
-
-
 
   #HomePage {
     background-image: url(../src/image/Web\ capture_30-11-2022_123021_approach0\ 3bg-vitlaa.jpg);
@@ -1368,33 +1325,29 @@ and the page section size///////////////////////////////////////////////////////
     grid-template-rows: 20% 35% 15% 20% 10%;
   }
 
-
   /*navbar*/
   nav {
     display: none;
   }
 
-
-
   /*heading*/
 
-
   .first-line {
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 20;
     margin-top: 0px;
     margin-bottom: 8px;
   }
 
   .second-line {
-    color: #FFBA6D;
+    color: #ffba6d;
     font-weight: 20;
     margin-top: 10px;
     margin-bottom: 8px;
   }
 
   .third-line {
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 20;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -1413,15 +1366,12 @@ and the page section size///////////////////////////////////////////////////////
     cursor: pointer;
   }
 
-
   /* subhead */
   .sub-head {
     font-family: "inter", sans-serif;
-    color: #FFFFFFB2;
+    color: #ffffffb2;
     text-align: center;
   }
-
-
 
   .sub-l3 {
     margin-top: 45px;
@@ -1430,7 +1380,6 @@ and the page section size///////////////////////////////////////////////////////
   }
 
   .sub-l4 {
-
     font-size: 3vw;
     font-weight: 300;
   }
@@ -1438,10 +1387,9 @@ and the page section size///////////////////////////////////////////////////////
   /* countdown timer  */
   .earlybird-coontainer {
     grid-row: 5;
-
   }
 
-  .expired-notice>span {
+  .expired-notice > span {
     display: flex;
     flex-basis: 100px;
     flex-grow: 0;
@@ -1455,18 +1403,16 @@ and the page section size///////////////////////////////////////////////////////
     line-height: 25px;
     padding-left: 22vw;
 
-
     border-radius: 0.25rem;
     text-decoration: none;
     color: #ff0000;
     border: none;
     background-color: #000000;
     opacity: 70%;
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
 
     height: 7rem;
     text-transform: capitalize;
-
   }
 
   .show-counter {
@@ -1489,11 +1435,11 @@ and the page section size///////////////////////////////////////////////////////
 
     border-radius: 0.25rem;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #ffffff;
     border: none;
     background-color: #000000;
     opacity: 70%;
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
 
     height: 7rem;
     width: 100vw;
@@ -1508,31 +1454,25 @@ and the page section size///////////////////////////////////////////////////////
     flex-direction: row;
   }
 
-
   .show-counter .countdown.danger {
-
     color: #ff0033;
-
   }
 
-  .show-counter .countdown>p {
+  .show-counter .countdown > p {
     margin: 0;
   }
 
-  .show-counter .countdown>span {
+  .show-counter .countdown > span {
     text-transform: uppercase;
     font-size: 0.6rem;
     line-height: 1rem;
-
   }
 
-
-  .early>p {
+  .early > p {
     width: 14vh;
     margin-left: 3vw;
     font-size: 4vw;
   }
-
 
   /* footerHome */
   .footerHome {
@@ -1542,10 +1482,10 @@ and the page section size///////////////////////////////////////////////////////
     margin-left: 12vw;
     width: 80%;
     text-align: center;
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
     font-size: 3vw;
     font-weight: 400;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1559,9 +1499,8 @@ and the page section size///////////////////////////////////////////////////////
     background: #000000;
   }
 
-
   #color {
-    color: #FFBA6D;
+    color: #ffba6d;
   }
 
   .heading-container-about {
@@ -1577,12 +1516,10 @@ and the page section size///////////////////////////////////////////////////////
     line-height: 22vw;
     letter-spacing: 0.1rem;
     text-align: left;
-
-
   }
 
   .line1-about {
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 100;
     margin-left: 4vw;
     font-size: 15vw;
@@ -1591,7 +1528,7 @@ and the page section size///////////////////////////////////////////////////////
   }
 
   .line2-about {
-    color: #DA453B;
+    color: #da453b;
     font-weight: 100;
     margin-left: 4vw;
     font-size: 15vw;
@@ -1602,14 +1539,12 @@ and the page section size///////////////////////////////////////////////////////
   }
 
   .line3-about {
-    color: #FFFFFF;
+    color: #ffffff;
     font-weight: 100;
     margin-left: 4vw;
     font-size: 15vw;
     margin-top: 1px;
     margin-bottom: 1px;
-
-
   }
 
   /* contentAbout */
@@ -1622,7 +1557,7 @@ and the page section size///////////////////////////////////////////////////////
     position: relative;
     width: 50%;
     height: 80%;
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
     font-weight: 300;
     font-size: 3vw;
     line-height: 3vh;
@@ -1630,22 +1565,20 @@ and the page section size///////////////////////////////////////////////////////
   }
 
   .about-para1 {
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .about-para2 {
-    color: #DA453B;
+    color: #da453b;
   }
 
   /*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-
   /* Speakers /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
 
   #SpeakersPage {
     background-image: url(../src/image/final_63888cedf225560025c4a748_237242\ 1speakers-bg.png);
@@ -1655,7 +1588,6 @@ and the page section size///////////////////////////////////////////////////////
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 10% repeat(4, 22.5%);
-
   }
 
   .cont1 {
@@ -1739,38 +1671,29 @@ and the page section size///////////////////////////////////////////////////////
     grid-row: 5;
   }
 
-
   /* speakercards */
-
 
   .img-speaker {
     border-radius: 10px;
     height: 32vw;
-
   }
-
 
   .cont1,
   .cont3,
   .cont5 {
-
     border-radius: 10px;
     height: 32vw;
     margin-left: 2.5vw;
     user-select: none;
   }
 
-
-
   .cont2,
   .cont4,
   .cont6 {
-
     border-radius: 10px;
     height: 32vw;
     user-select: none;
   }
-
 
   .cont7 {
     border-radius: 10px;
@@ -1780,42 +1703,29 @@ and the page section size///////////////////////////////////////////////////////
   }
 
   .content {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: "inter", sans-serif;
     font-size: 2.8vw;
     height: 80%;
     width: 95%;
-
   }
 
-
-  .content>h4 {
-
+  .content > h4 {
     margin-left: 2.5vw;
     margin-top: 0px;
     font-weight: 300;
     color: #ffb73c;
     font-size: 3.1vw;
     line-height: 20px;
-
-
   }
 
-  .content>p {
+  .content > p {
     height: 50%;
     width: 90%;
     margin-left: 2.5vw;
     margin-top: -15px;
     line-height: 20px;
   }
-
-
-
-
-
-
-
-
 
   /* schedule */
 
@@ -1842,13 +1752,11 @@ and the page section size///////////////////////////////////////////////////////
     grid-row: 2;
   }
 
-
   .schedule-cont {
     position: absolute;
     margin: 0;
     height: 100%;
     width: 100%;
-
   }
 
   .schedule-head {
@@ -1858,7 +1766,7 @@ and the page section size///////////////////////////////////////////////////////
     font-family: Six Caps;
     font-weight: 400;
     letter-spacing: 0.3rem;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 
   .scheduleCont {
@@ -1879,9 +1787,7 @@ and the page section size///////////////////////////////////////////////////////
   .schedule3 {
     z-index: 5;
     height: 70%;
-
   }
-
 
   /* download */
 
@@ -1891,7 +1797,6 @@ and the page section size///////////////////////////////////////////////////////
     height: 100vh;
     width: 100vw;
     background: #000000;
-
   }
 
   /* downloads */
@@ -1908,40 +1813,32 @@ and the page section size///////////////////////////////////////////////////////
     width: 70%;
   }
 
-
-
   .button-container {
     grid-row: 3;
     text-align: center;
   }
 
   .download-content {
-
     padding-left: 10%;
-
   }
 
-  .download-content>h1 {
-    font-family: 'six caps', sans-serif;
+  .download-content > h1 {
+    font-family: "six caps", sans-serif;
     font-weight: 400;
-    color: #DA453B;
+    color: #da453b;
     letter-spacing: 0.3rem;
     font-size: 10vw;
     margin-bottom: 2vw;
     display: inline-block;
-
   }
 
-
-  .download-content>ol>li {
-    color: #FFFFFF;
-    font-family: 'inter', sans-serif;
+  .download-content > ol > li {
+    color: #ffffff;
+    font-family: "inter", sans-serif;
     line-height: 5vh;
     font-size: 4.5vw;
     width: 90%;
   }
-
-
 
   /* RegistrationPage */
   #RegistrationPage {
@@ -1955,7 +1852,6 @@ and the page section size///////////////////////////////////////////////////////
     grid-template-rows: 10% 80% 10%;
   }
 
-
   .button-container-registration {
     grid-row: 3;
     text-align: center;
@@ -1965,108 +1861,95 @@ and the page section size///////////////////////////////////////////////////////
     margin-top: 2vh;
   }
 
-
   .dtext {
     text-decoration: none;
   }
-
 
   .register-deadline {
     display: none;
   }
 
-  .register-png>img {
+  .register-png > img {
     grid-row: 2;
   }
 
   /* footer */
   #Footer {
-
     display: grid;
     margin: 0;
     border: 0;
     height: 37vh;
     width: 100vw;
     background: #000000b8;
-    color: #FFFFFF;
-    font-family: 'inter', sans-serif;
-
+    color: #ffffff;
+    font-family: "inter", sans-serif;
   }
 
   .foot-container {
     display: grid;
     grid-template-rows: repeat(3, 33.33%);
-
   }
 
-  .heading-footer>h3 {
+  .heading-footer > h3 {
     font-size: 4vh;
-    font-family: 'six caps', sans-serif;
+    font-family: "six caps", sans-serif;
     font-weight: 100;
     margin-bottom: 0;
   }
 
-
   .footer-cont1 {
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
     font-size: 1.5vh;
     font-weight: 400;
-    color: #FFFFFFB2;
+    color: #ffffffb2;
     text-align: center;
     line-height: 17px;
-
   }
 
-
   .name-footer {
-    color: #DA453B;
+    color: #da453b;
     line-height: 15px;
     font-size: 1.5vh;
   }
 
   .footer-cont2 {
-    color: #FFFFFFB2;
+    color: #ffffffb2;
     text-align: center;
   }
 
-
   .name-footer2 {
-    color: #DA453B;
+    color: #da453b;
     margin-top: 2.5vh;
-    font-size: 1.5vh
+    font-size: 1.5vh;
   }
 
   .footer-cont3 {
-    color: #FFFFFFB2;
+    color: #ffffffb2;
     font-size: 1.5vh;
     text-align: center;
     transform: translate(0, -50%);
   }
 
-
   .name-footer3 {
-    color: #DA453B;
+    color: #da453b;
     line-height: 17px;
-    font-size: 1.5vh
+    font-size: 1.5vh;
   }
 
   .content-footer {
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
   }
 
-  .copyrights>p {
+  .copyrights > p {
     transform: translate(0, 300%);
-    font-family: 'inter', sans-serif;
+    font-family: "inter", sans-serif;
     font-size: 2.2vh;
-
   }
-
 
   /* TEAMS PAGE */
   #TeamPage {
     display: grid;
     padding: 15px;
-
   }
 
   .heading-container-team {
@@ -2074,34 +1957,29 @@ and the page section size///////////////////////////////////////////////////////
   }
 
   .team-heading {
-    color: #DA453B;
-    font-family: 'six caps', sans-serif;
+    color: #da453b;
+    font-family: "six caps", sans-serif;
     letter-spacing: 0.15vw;
     font-size: 5vh;
     font-weight: 100;
     text-align: center;
-
-
   }
 
   .team-content {
     color: #ffffff;
     font-size: 2.5vh;
-    font-family: 'barlow', sans-serif;
+    font-family: "barlow", sans-serif;
     text-align: center;
     margin-top: -25px;
     margin-bottom: 25px;
   }
 
-  .team-content>span {
+  .team-content > span {
     font-size: 3vh;
-    font-family: 'barlow', sans-serif;
+    font-family: "barlow", sans-serif;
     text-align: center;
   }
-
 }
-
-
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
