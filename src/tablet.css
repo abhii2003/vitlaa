@@ -12,14 +12,14 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width:400px) and (max-width: 825px) {
 
 
     .heading-container {
 
         font-family: 'Six Caps', sans-serif;
         letter-spacing: 0.38rem;
-        font-size: 9vw;
+        font-size: 5vh;
         margin-left: 5vw;
 
     }
@@ -225,7 +225,7 @@
     .fourth-line {
         font-family: "six caps", sans-serif;
         color: #ffba6d;
-        font-size: 5vw;
+        font-size: 4vh;
         letter-spacing: 2px;
         font-weight: 500;
         background-color: transparent;
@@ -247,13 +247,13 @@
 
     .sub-l3 {
         margin-top: 45px;
-        font-size: 4vw;
+        font-size: 3vh;
         font-weight: 750;
     }
 
     .sub-l4 {
 
-        font-size: 3vw;
+        font-size: 2vh;
         font-weight: 300;
     }
 
@@ -273,7 +273,7 @@
 
         align-items: right;
         font-weight: 700;
-        font-size: 4vw;
+        font-size: 3vh;
         line-height: 25px;
         padding-left: 22vw;
 
@@ -302,11 +302,12 @@
         flex-shrink: 0;
         flex-direction: row;
         margin-left: 0vh;
+        margin-top: 2.5vh;
         align-items: center;
 
         align-items: right;
         font-weight: 700;
-        font-size: 4vw;
+        font-size: 3vh;
         line-height: 25px;
 
         border-radius: 0.25rem;
@@ -317,7 +318,7 @@
         opacity: 70%;
         font-family: 'inter', sans-serif;
 
-        height: 7rem;
+        height: 10rem;
         width: 100vw;
     }
 
@@ -351,8 +352,8 @@
 
     .early>p {
         width: 14vh;
-        margin-left: 3vw;
-        font-size: 4vw;
+        margin-left: 15vw;
+        font-size: 2.5vh;
     }
 
 
@@ -365,7 +366,7 @@
         width: 80%;
         text-align: center;
         font-family: 'inter', sans-serif;
-        font-size: 3vw;
+        font-size: 2vh;
         font-weight: 400;
         color: #FFFFFF;
     }
@@ -396,7 +397,7 @@
         width: 90%;
         margin-left: 2vw;
         font-family: Six Caps;
-        line-height: 22vw;
+        line-height: 12vh;
         letter-spacing: 0.1rem;
         text-align: left;
 
@@ -404,11 +405,11 @@
     }
 
     .line1-about {
+
         color: #FFFFFF;
         font-weight: 100;
         margin-left: 4vw;
-        font-size: 15vw;
-        position: relative;
+        font-size: 10vh;
         margin-bottom: 1px;
     }
 
@@ -416,7 +417,7 @@
         color: #DA453B;
         font-weight: 100;
         margin-left: 4vw;
-        font-size: 15vw;
+        font-size: 10vh;
 
         position: relative;
         margin-top: 1px;
@@ -427,7 +428,7 @@
         color: #FFFFFF;
         font-weight: 100;
         margin-left: 4vw;
-        font-size: 15vw;
+        font-size: 10vh;
         margin-top: 1px;
         margin-bottom: 1px;
 
@@ -446,7 +447,7 @@
         height: 80%;
         font-family: 'inter', sans-serif;
         font-weight: 300;
-        font-size: 3vw;
+        font-size: 2vh;
         line-height: 3vh;
         width: 95%;
     }
@@ -567,7 +568,7 @@
 
     .img-speaker {
         border-radius: 10px;
-        height: 32vw;
+        height: 20vh;
 
     }
 
@@ -577,7 +578,7 @@
     .cont5 {
 
         border-radius: 10px;
-        height: 32vw;
+        height: 20vh;
         margin-left: 2.5vw;
         user-select: none;
     }
@@ -589,14 +590,14 @@
     .cont6 {
 
         border-radius: 10px;
-        height: 32vw;
+        height: 20vh;
         user-select: none;
     }
 
 
     .cont7 {
         border-radius: 10px;
-        height: 32vw;
+        height: 20vh;
         margin-left: 27vw;
         user-select: none;
     }
@@ -604,7 +605,7 @@
     .content {
         color: #FFFFFF;
         font-family: "inter", sans-serif;
-        font-size: 2.8vw;
+        font-size: 1.8vh;
         height: 80%;
         width: 95%;
 
@@ -614,10 +615,10 @@
     .content>h4 {
 
         margin-left: 2.5vw;
-        margin-top: 0px;
+        margin-top: 15px;
         font-weight: 300;
         color: #ffb73c;
-        font-size: 3.1vw;
+        font-size: 1.8vh;
         line-height: 20px;
 
 
@@ -627,7 +628,6 @@
         height: 50%;
         width: 90%;
         margin-left: 2.5vw;
-        margin-top: -15px;
         line-height: 20px;
     }
 
@@ -687,7 +687,7 @@
         width: 80%;
         height: 100%;
         transform: translate(0, 5%);
-        margin-left: -22px;
+        margin-left: -45px;
     }
 
     .schedule1 {
@@ -759,7 +759,7 @@
         color: #FFFFFF;
         font-family: 'inter', sans-serif;
         line-height: 5vh;
-        font-size: 4.5vw;
+        font-size: 2.7vh;
         width: 90%;
     }
 
