@@ -4,7 +4,6 @@ import AboutPage from "./components/AboutPage/aboutpage";
 import SpeakersPage from "./components/SpeakersPage/speakerspage";
 import SchedulePage from "./components/SchedulePage/schedulepage";
 import DownloadPage from "./components/DownloadPage/downloadpage";
-import RegistrationPage from "./components/RegistrationPage/registrationpage";
 
 export default function AllSections() {
   return (
@@ -34,9 +33,7 @@ export default function AllSections() {
         <FaqHead />
     </section> */}
 
-      <section className="page" id="RegistrationPage">
-        <RegistrationPage />
-      </section>
+
     </div>
   );
 }
