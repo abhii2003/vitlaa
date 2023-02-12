@@ -693,10 +693,10 @@ only screen and (min-resolution: 2dppx) {
   }
 
   .scheduleCont {
-    width: 75%;
+    width: 80%;
     height: 100%;
     transform: translate(0, 5%);
-    margin-left: -10px;
+    margin-left: -22px;
   }
 
   .schedule1 {
@@ -764,7 +764,7 @@ only screen and (min-resolution: 2dppx) {
   }
 
 
-  .download-content>p {
+  .download-content>ol>li {
     color: #FFFFFF;
     font-family: 'inter', sans-serif;
     line-height: 5vh;
