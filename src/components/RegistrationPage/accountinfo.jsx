@@ -26,13 +26,13 @@ export default function AccountInfo() {
           </h1>
         </div>
 
-        <div className="feedetail-content">
-          <table>
+        <div className="feedetail-content ">
+          <table >
             <tbody>
               {fees.map(({ id, category, fee }) => {
                 return (
-                  <tr key={`fee-${id}`}>
-                    <td>
+                  <tr key={`fee-${id}`} >
+                    <td >
                       <span id="color">{category}</span>
                     </td>
                     <td>:</td>
@@ -53,7 +53,7 @@ export default function AccountInfo() {
 
         <div className="feedetail-content">
           <h3 id="color">Indian participants:</h3>
-          <ol >
+          <ol  >
             <li>
               Visit{" "}
               <a className="flink2" href="https://vitchennaievents.com">
