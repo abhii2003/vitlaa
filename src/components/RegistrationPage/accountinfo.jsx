@@ -19,43 +19,44 @@ const fees = [
 export default function AccountInfo() {
   return (
     <>
-      <div>
-        <h1 className="page-head">
-          FEE <span id="color">DETAILS</span>
-        </h1>
-      </div>
+      <section id="AccountInfo">
+        <div>
+          <h1 className="page-head">
+            FEE <span id="color">DETAILS</span>
+          </h1>
+        </div>
 
-      <div className="feedetail-content">
-        <table>
-          <tbody>
-            {fees.map(({ id, category, fee }) => {
-              return (
-                <tr key={`fee-${id}`}>
-                  <td>
-                    <span id="color">{category}</span>
-                  </td>
-                  <td>:</td>
-                  <td>
-                    <span id="color-RED"> {fee}</span>
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
+        <div className="feedetail-content">
+          <table>
+            <tbody>
+              {fees.map(({ id, category, fee }) => {
+                return (
+                  <tr key={`fee-${id}`}>
+                    <td>
+                      <span id="color">{category}</span>
+                    </td>
+                    <td>:</td>
+                    <td>
+                      <span id="color-RED"> {fee}</span>
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
 
-      <h2 className="page-head">
-        How to <span id="color">Pay</span>?
-      </h2>
+        <h2 className="page-head">
+          How to <span id="color">Pay</span>?
+        </h2>
 
-      <section className="section">
+
         <div className="feedetail-content">
           <h3 id="color">Indian participants:</h3>
-          <ol>
+          <ol >
             <li>
               Visit{" "}
-              <a href="https://vitchennaievents.com">
+              <a className="flink2" href="https://vitchennaievents.com">
                 https://vitchennaievents.com
               </a>
             </li>

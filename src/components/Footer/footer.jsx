@@ -30,7 +30,7 @@ export default function Footer() {
                 <p className="name-footer2">https://vitchennaievents.com</p>
               </a>
               <p>
-                © 2023 All rights reserved | Design & Developed by VIT Chennai
+                © 2023 All rights reserved | Designed & Developed by VIT Chennai
               </p>
             </div>
           </div>

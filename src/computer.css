@@ -275,6 +275,13 @@ and the page section size///////////////////////////////////////////////////////
     color: #ffffffb2;
   }
 
+  .flink2 {
+    text-decoration: none;
+    font-family: "inter", sans-serif;
+    color: #da453b;
+  }
+
+
   #color {
     color: #ffba6d;
   }
@@ -386,12 +393,12 @@ and the page section size///////////////////////////////////////////////////////
     z-index: 99;
   }
 
-  nav > ul {
+  nav>ul {
     width: 100vw;
     display: flex;
   }
 
-  nav > ul > li {
+  nav>ul>li {
     list-style: none;
     color: #ffffff;
     font-family: "inter", sans-serif;
@@ -399,7 +406,7 @@ and the page section size///////////////////////////////////////////////////////
     font-weight: 800;
   }
 
-  nav > ul > li > a {
+  nav>ul>li>a {
     font-family: "inter", sans-serif;
   }
 
@@ -525,7 +532,7 @@ and the page section size///////////////////////////////////////////////////////
     box-shadow: inset 0 0 0 10em #ffba6d;
   }
 
-  .heading > h1 {
+  .heading>h1 {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 5vw;
@@ -555,7 +562,7 @@ and the page section size///////////////////////////////////////////////////////
 
   /*Early Bird Offer ///////////////////////////////////////////////////////////////////////////////////////////////////////*/
   /* countdown timer  */
-  .expired-notice > span {
+  .expired-notice>span {
     color: #f10808;
   }
 
@@ -595,11 +602,11 @@ and the page section size///////////////////////////////////////////////////////
     color: #ff0033;
   }
 
-  .show-counter .countdown > p {
+  .show-counter .countdown>p {
     margin: 0;
   }
 
-  .show-counter .countdown > span {
+  .show-counter .countdown>span {
     text-transform: uppercase;
     font-size: 0.7vw;
     line-height: 1rem;
@@ -940,7 +947,7 @@ and the page section size///////////////////////////////////////////////////////
     line-height: 1.5rem;
   }
 
-  .download-content > h1 {
+  .download-content>h1 {
     font-family: "six caps", sans-serif;
     font-weight: 400;
     color: #da453b;
@@ -949,7 +956,7 @@ and the page section size///////////////////////////////////////////////////////
     margin-bottom: 6vh;
   }
 
-  .download-content > ol > li {
+  .download-content>ol>li {
     color: #ffffff;
     font-family: "inter", sans-serif;
     line-height: 5.6vh;
@@ -1027,11 +1034,11 @@ and the page section size///////////////////////////////////////////////////////
     padding-left: 2rem;
   }
 
-  .feedetail-content > ol > li {
+  .feedetail-content>ol>li {
     margin-top: 1rem;
   }
 
-  .feedetail-content > table {
+  .feedetail-content>table {
     margin-left: auto;
     margin-right: auto;
   }
@@ -1083,7 +1090,7 @@ and the page section size///////////////////////////////////////////////////////
     text-align: center;
   }
 
-  .heading-footer1 > h3 {
+  .heading-footer1>h3 {
     margin-bottom: 0;
     font-size: 2.09vw;
     font-family: "six caps", sans-serif;
@@ -1103,7 +1110,7 @@ and the page section size///////////////////////////////////////////////////////
     text-align: center;
   }
 
-  .heading-footer2 > h3 {
+  .heading-footer2>h3 {
     margin-bottom: 0;
     font-size: 2.09vw;
     font-family: "six caps", sans-serif;
@@ -1124,7 +1131,7 @@ and the page section size///////////////////////////////////////////////////////
     text-align: center;
   }
 
-  .heading-footer3 > h3 {
+  .heading-footer3>h3 {
     margin-bottom: 0;
     font-size: 2.09vw;
     font-family: "six caps", sans-serif;
@@ -1168,7 +1175,7 @@ and the page section size///////////////////////////////////////////////////////
     margin-bottom: 25px;
   }
 
-  .team-content > span {
+  .team-content>span {
     font-size: 4vh;
     font-family: "barlow", sans-serif;
     font-weight: bolder;
@@ -1266,12 +1273,7 @@ and the page section size///////////////////////////////////////////////////////
     background-color: #159c33;
   }
 
-  /*for preventing the anchor links on bottons turnig purple ////////////////////////////////////////////////////////////////////*/
-  .flink {
-    text-decoration: none;
-    font-family: "inter", sans-serif;
-    color: #ffffffb2;
-  }
+
 
   #color {
     color: #ffba6d;
@@ -1389,7 +1391,7 @@ and the page section size///////////////////////////////////////////////////////
     grid-row: 5;
   }
 
-  .expired-notice > span {
+  .expired-notice>span {
     display: flex;
     flex-basis: 100px;
     flex-grow: 0;
@@ -1458,17 +1460,17 @@ and the page section size///////////////////////////////////////////////////////
     color: #ff0033;
   }
 
-  .show-counter .countdown > p {
+  .show-counter .countdown>p {
     margin: 0;
   }
 
-  .show-counter .countdown > span {
+  .show-counter .countdown>span {
     text-transform: uppercase;
     font-size: 0.6rem;
     line-height: 1rem;
   }
 
-  .early > p {
+  .early>p {
     width: 14vh;
     margin-left: 3vw;
     font-size: 4vw;
@@ -1710,7 +1712,7 @@ and the page section size///////////////////////////////////////////////////////
     width: 95%;
   }
 
-  .content > h4 {
+  .content>h4 {
     margin-left: 2.5vw;
     margin-top: 0px;
     font-weight: 300;
@@ -1719,7 +1721,7 @@ and the page section size///////////////////////////////////////////////////////
     line-height: 20px;
   }
 
-  .content > p {
+  .content>p {
     height: 50%;
     width: 90%;
     margin-left: 2.5vw;
@@ -1822,7 +1824,7 @@ and the page section size///////////////////////////////////////////////////////
     padding-left: 10%;
   }
 
-  .download-content > h1 {
+  .download-content>h1 {
     font-family: "six caps", sans-serif;
     font-weight: 400;
     color: #da453b;
@@ -1832,7 +1834,7 @@ and the page section size///////////////////////////////////////////////////////
     display: inline-block;
   }
 
-  .download-content > ol > li {
+  .download-content>ol>li {
     color: #ffffff;
     font-family: "inter", sans-serif;
     line-height: 5vh;
@@ -1869,7 +1871,7 @@ and the page section size///////////////////////////////////////////////////////
     display: none;
   }
 
-  .register-png > img {
+  .register-png>img {
     grid-row: 2;
   }
 
@@ -1890,7 +1892,7 @@ and the page section size///////////////////////////////////////////////////////
     grid-template-rows: repeat(3, 33.33%);
   }
 
-  .heading-footer > h3 {
+  .heading-footer>h3 {
     font-size: 4vh;
     font-family: "six caps", sans-serif;
     font-weight: 100;
@@ -1940,7 +1942,7 @@ and the page section size///////////////////////////////////////////////////////
     font-family: "inter", sans-serif;
   }
 
-  .copyrights > p {
+  .copyrights>p {
     transform: translate(0, 300%);
     font-family: "inter", sans-serif;
     font-size: 2.2vh;
@@ -1974,7 +1976,7 @@ and the page section size///////////////////////////////////////////////////////
     margin-bottom: 25px;
   }
 
-  .team-content > span {
+  .team-content>span {
     font-size: 3vh;
     font-family: "barlow", sans-serif;
     text-align: center;
