@@ -652,7 +652,7 @@ only screen and (min-resolution: 2dppx) {
   #SchedulePage {
     margin: 0;
     border: 0;
-    height: 100vh;
+    height: 60vh;
     width: 100vw;
     background: #000000;
     display: grid;
@@ -693,7 +693,7 @@ only screen and (min-resolution: 2dppx) {
 
   .scheduleCont {
     width: 80%;
-    height: 100%;
+    height: 130%;
     transform: translate(0, 5%);
     margin-left: -22px;
   }
@@ -715,18 +715,10 @@ only screen and (min-resolution: 2dppx) {
 
   /* download */
 
-  #DownloadPage {
-    margin: 0;
-    border: 0;
-    height: 100vh;
-    width: 100vw;
-    background: #000000;
-
-  }
 
   /* downloads */
   #DownloadPage {
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     background: #000000;
     display: grid;
@@ -743,6 +735,7 @@ only screen and (min-resolution: 2dppx) {
   .button-container {
     grid-row: 3;
     text-align: center;
+    transform: translate(0, -10%);
   }
 
   .download-content {
@@ -757,7 +750,7 @@ only screen and (min-resolution: 2dppx) {
     color: #DA453B;
     letter-spacing: 0.3rem;
     font-size: 10vw;
-    margin-bottom: 2vw;
+    margin-bottom: 3vw;
     display: inline-block;
 
   }
@@ -815,11 +808,16 @@ only screen and (min-resolution: 2dppx) {
     display: grid;
     margin: 0;
     border: 0;
-    height: 37vh;
+    height: 10vh;
     width: 100vw;
     background: #000000b8;
     color: #FFFFFF;
     font-family: 'inter', sans-serif;
+
+  }
+
+  .content-footer>p {
+    margin: 9px;
 
   }
 
@@ -834,6 +832,7 @@ only screen and (min-resolution: 2dppx) {
     font-family: 'six caps', sans-serif;
     font-weight: 100;
     margin-bottom: 0;
+    margin-top: 0;
   }
 
 
@@ -862,8 +861,8 @@ only screen and (min-resolution: 2dppx) {
 
   .name-footer2 {
     color: #DA453B;
-    margin-top: 2.5vh;
-    font-size: 1.5vh
+    font-size: 1.5vh;
+    margin: 0;
   }
 
   .footer-cont3 {
