@@ -1,5 +1,5 @@
 import React from "react";
-
+import Button from '@mui/material/Button';
 const brocherimg = require("../DownloadPage/brocher.png");
 const brocher = require("../DownloadPage/FDP_on_LA_Brochure.pdf");
 export default function DownloadPng() {
@@ -12,10 +12,10 @@ export default function DownloadPng() {
       </div>
       <div className="button-container">
         <div className="download-btn">
-          <a href={brocher} download="FDP_on_LA_Brochure" className="dtext">
-            <button className="btn btn-contained btn-success">
+          <a href={brocher} download="FDP_on_LA_Brochure" className="button flink">
+            <Button variant="contained" color="success">
               DOWNLOAD BROCHURE
-            </button>
+            </Button>
           </a>
         </div>
       </div>
