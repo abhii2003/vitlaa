@@ -10,11 +10,11 @@ export default function Footer() {
               <h3>Convenors</h3>
             </div>
             <div className="content-footer">
-              <p className="name-footer">
+              <p className="name-footer nomargin">
                 Dr. David Raj Micheal & Dr. Sushmitha P
               </p>
-              <p>Divison of Mathematics, SAS, VIT, Chennai</p>
-              <p>
+              <p className=" nomargin">Divison of Mathematics, SAS, VIT, Chennai</p>
+              <p className=" nomargin">
                 Email: davidraj.micheal@vit.ac.in; sushmitha.p@vit.ac.in Phone:
                 +91 750287908, +91 9600628354
               </p>
@@ -40,10 +40,10 @@ export default function Footer() {
               <h3>Designed and Developed By</h3>
             </div>
             <div className="content-footer">
-              <p className="name-footer3">
+              <p className="name-footer3 nomargin">
                 Shashwat Mishra, Abhinav Kushwaha, Venkat Amith
               </p>
-              <p>
+              <p className=" nomargin">
                 github:
                 <a
                   href="https://github.com/Shashwatm74"
