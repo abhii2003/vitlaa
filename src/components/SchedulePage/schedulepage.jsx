@@ -4,10 +4,10 @@ import ScheduleContent from './scheduleContent';
 
 export default function SchedulePage() {
     return (
-        <>
+        <section className='section'>
             <ScheduleHead />
             <ScheduleContent />
 
-        </>
+        </section>
     )
 }

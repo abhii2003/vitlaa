@@ -863,7 +863,6 @@ and the page section size///////////////////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
   #SchedulePage {
     display: grid;
-    height: 90vh;
     grid-template-rows: 15% 85%;
     grid-template-columns: 100%;
     scroll-margin-top: 3em;
@@ -875,11 +874,8 @@ and the page section size///////////////////////////////////////////////////////
   }
 
   .schedule2 {
-    height: 100%;
     width: 90%;
     margin-left: 5%;
-    z-index: 100;
-    transform: translate(0, -92%);
   }
 
   .schedule3 {
@@ -1185,3 +1181,4 @@ and the page section size///////////////////////////////////////////////////////
     text-align: center;
   }
 }
+
