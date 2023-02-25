@@ -868,6 +868,15 @@ and the page section size///////////////////////////////////////////////////////
     scroll-margin-top: 3em;
   }
 
+  .cont-image-containerasdfd {
+
+    text-align: center;
+  }
+
+  .scheduleContaaa {
+    margin-top: -7vh;
+  }
+
   .image-schedule {
     height: 30%;
     width: 30%;
@@ -1181,4 +1190,3 @@ and the page section size///////////////////////////////////////////////////////
     text-align: center;
   }
 }
-
