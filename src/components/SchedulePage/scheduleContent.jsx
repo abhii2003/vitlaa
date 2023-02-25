@@ -1,6 +1,6 @@
 import React from "react";
 const schedulepng = require("../SchedulePage/6103.png");
-const scheduleimg = require("../SchedulePage/Schedule.jpg");
+const scheduleimg = require("../SchedulePage/schedule.png");
 const scheduleimgmobi = require("../SchedulePage/scheduleimagemobi.png");
 
 const rows = [
