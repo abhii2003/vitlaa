@@ -24,7 +24,7 @@ const ShowCounter = ({ days, hours, minutes, seconds }) => {
           <a className="countdown-link">
 
             <div className='early'>
-              <p><br />EVENT<br />STARTS IN</p><br />
+              <p><br />EVENT<br />ONGOING</p><br />
             </div>
             <DateTimeDisplay value={days} type={'Days'} isDanger={days <= 60} />
             <p>:</p>
