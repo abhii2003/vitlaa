@@ -718,8 +718,15 @@ only screen and (min-resolution: 2dppx) {
 
   .schedule3 {
     z-index: 5;
-    height: 70%;
+    margin-left: 0;
+    height: 100%;
+    width: 100%;
 
+  }
+
+  .schedulebtn {
+    text-align: center;
+    align-items: center;
   }
 
 
@@ -994,6 +1001,9 @@ only screen and (min-resolution: 2dppx) {
   text-transform: uppercase;
 }
 
+.cont-image-containerasdfd {
+  text-align: center;
+}
 
 
 

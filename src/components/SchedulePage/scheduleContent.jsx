@@ -29,7 +29,7 @@ export default function ScheduleContent() {
 
                 {/* <img className='images image-schedule schedule1' src={schedulepng} alt="schedule png" /> */}
                 <img className="images image-schedule schedule2" src={scheduleimg} alt='schedule png' />
-                {/* <img className="images image-schedule schedule3" src={scheduleimgmobi} alt='schedule png' /> */}
+                <img className="images image-schedule schedule3" src={scheduleimgmobi} alt='schedule png' />
                 {/*          
                 <img className='images image-schedule schedule1' src={schedulepng} alt="schedule png" />
                 <img className="images image-schedule schedule2" src={scheduleimg} alt='schedule png' />
