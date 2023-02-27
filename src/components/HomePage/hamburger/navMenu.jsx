@@ -171,6 +171,22 @@ export function NavMenu({ isOpen }) {
         >
           <a href="/team">Team</a>
         </NavLink>
+        <NavLink
+          initial={false}
+          animate={isOpen ? "show" : "hide"}
+          variants={{
+            show: {
+              ...variants.show,
+              transition: { delay: 1, duration: 0.2 },
+            },
+            hide: {
+              ...variants.hide,
+              transition: { delay: 0.45, duration: 0.05 },
+            },
+          }}
+        >
+          <a href="/participants">Participants</a>
+        </NavLink>
       </NavList>
     </NavMenuContainer>
   );
