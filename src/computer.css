@@ -311,7 +311,7 @@ and the page section size///////////////////////////////////////////////////////
   }
 
   #Sponsors {
-    margin-left: 35.3vw;
+    margin-left: 28.3vw;
   }
 
   /* #FAQs {
@@ -1189,4 +1189,15 @@ and the page section size///////////////////////////////////////////////////////
     font-weight: bolder;
     text-align: center;
   }
+}
+
+.participants-content {
+  color: white;
+  font-family: "inter", sans-serif;
+  text-align: center;
+  font-size: 4vh;
+}
+
+.paricipant-head {
+  margin-top: 5vh;
 }

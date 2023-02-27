@@ -57,6 +57,11 @@ export default function Nav() {
               <button className="navButton">COMMITTEE</button>
             </NavLink>
           </li>
+          <li className="nav-items" id="Registration">
+            <NavLink to="/participants" className="navButton navText">
+              <button className="navButton">PARTICIPANTS</button>
+            </NavLink>
+          </li>
           {/* just type in sponsor in navText class a to enable the sponsors button  */}
           {/* <li className='nav-items' id='FAQs'>
                         <NavLink to="/#FAQPage">
