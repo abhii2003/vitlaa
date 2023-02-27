@@ -1196,6 +1196,7 @@ and the page section size///////////////////////////////////////////////////////
   font-family: "inter", sans-serif;
   text-align: center;
   font-size: 4vh;
+  text-transform: uppercase;
 }
 
 .paricipant-head {
