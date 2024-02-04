@@ -6,7 +6,7 @@ import CountdownTimer from './CountdownTimer';
 import FooterHome from './footerHome';
 
 export default function HomePage() {
-    const dateTimeTarget = new Date('March 3, 93 17:30:00 GMT+05:30').getTime();
+    const dateTimeTarget = new Date('March 6, 30 17:30:00 GMT+05:30').getTime();
 
     return (
 
